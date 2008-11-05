@@ -9,7 +9,7 @@ class PagesController < ApplicationController
       UserMailer.deliver_contactnow(params[:email])
       flash[:notice] = "Thanks for contacting us!"
       # render the default action
-      render root_path  
+      redirect_to '/'
   end
 
   def feedback
