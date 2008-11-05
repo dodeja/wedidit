@@ -14,9 +14,11 @@
 development:
   adapter: mysql
   database: wedidit_dev
-  username: sunago
-  password: lum1n0usn0mad
-  host: 127.0.0.1
+  # username: sunago
+  # password: lum1n0usn0mad
+  # host: 127.0.0.1
+  username: root
+  password:
 
 # Warning: The database defined as 'test' will be erased and
 # re-generated from your development database when you run 'rake'.

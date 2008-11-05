@@ -26649,6 +26649,40 @@ Rendered layouts/_footer (0.00002)
 Completed in 0.02149 (46 reqs/sec) | Rendering: 0.01408 (65%) | DB: 0.00201 (9%) | 200 OK [http://localhost/]
 
 
+<<<<<<< HEAD:log/development.log
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:19:35) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:19:35) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+
+
+Mysql::Error (Access denied for user 'sunago'@'localhost' (using password: YES)):
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/mysql_adapter.rb:505:in `real_connect'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/mysql_adapter.rb:505:in `connect'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/mysql_adapter.rb:183:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/mysql_adapter.rb:88:in `new'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/mysql_adapter.rb:88:in `mysql_connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/connection_specification.rb:292:in `send'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/connection_specification.rb:292:in `connection='
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/connection_specification.rb:260:in `retrieve_connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/connection_specification.rb:78:in `connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+=======
 Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:25:11) [GET]
   Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
 YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
@@ -26721,6 +26755,7 @@ ActionController::RoutingError (No route matches "/submit/" with {:method=>:get}
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/route_set.rb:384:in `recognize'
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:148:in `handle_request'
+>>>>>>> c12f13629401cdb2342a1483a0a72b5f29b55651:log/development.log
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
@@ -26750,12 +26785,58 @@ ActionController::RoutingError (No route matches "/submit/" with {:method=>:get}
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
     /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+<<<<<<< HEAD:log/development.log
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+=======
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
+>>>>>>> c12f13629401cdb2342a1483a0a72b5f29b55651:log/development.log
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
     /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+<<<<<<< HEAD:log/development.log
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:19:38) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:19:38) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+
+
+Mysql::Error (Access denied for user 'sunago'@'localhost' (using password: YES)):
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/mysql_adapter.rb:505:in `real_connect'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/mysql_adapter.rb:505:in `connect'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/mysql_adapter.rb:183:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/mysql_adapter.rb:88:in `new'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/mysql_adapter.rb:88:in `mysql_connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/connection_specification.rb:292:in `send'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/connection_specification.rb:292:in `connection='
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/connection_specification.rb:260:in `retrieve_connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/connection_specification.rb:78:in `connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+=======
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
     script/server:3
@@ -26786,6 +26867,7 @@ ActionController::MethodNotAllowed (Only get, head, post, put, and delete reques
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/recognition_optimisation.rb:65:in `recognize_path'
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/route_set.rb:384:in `recognize'
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:148:in `handle_request'
+>>>>>>> c12f13629401cdb2342a1483a0a72b5f29b55651:log/development.log
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
@@ -26815,12 +26897,58 @@ ActionController::MethodNotAllowed (Only get, head, post, put, and delete reques
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
     /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+<<<<<<< HEAD:log/development.log
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+=======
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
+>>>>>>> c12f13629401cdb2342a1483a0a72b5f29b55651:log/development.log
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
     /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+<<<<<<< HEAD:log/development.log
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:20:45) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:20:45) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+
+
+Mysql::Error (Access denied for user 'sunago'@'localhost' (using password: YES)):
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/mysql_adapter.rb:505:in `real_connect'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/mysql_adapter.rb:505:in `connect'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/mysql_adapter.rb:183:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/mysql_adapter.rb:88:in `new'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/mysql_adapter.rb:88:in `mysql_connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/connection_specification.rb:292:in `send'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/connection_specification.rb:292:in `connection='
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/connection_specification.rb:260:in `retrieve_connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/connection_specification.rb:78:in `connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+=======
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
     script/server:3
@@ -26839,6 +26967,7 @@ ActionController::MethodNotAllowed (Only get, head, post, put, and delete reques
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/recognition_optimisation.rb:65:in `recognize_path'
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/route_set.rb:384:in `recognize'
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:148:in `handle_request'
+>>>>>>> c12f13629401cdb2342a1483a0a72b5f29b55651:log/development.log
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
@@ -26868,12 +26997,57 @@ ActionController::MethodNotAllowed (Only get, head, post, put, and delete reques
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
     /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+<<<<<<< HEAD:log/development.log
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+=======
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
+>>>>>>> c12f13629401cdb2342a1483a0a72b5f29b55651:log/development.log
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
     /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+<<<<<<< HEAD:log/development.log
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:20:51) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;36;1mSQL (0.000225)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000450)[0m   [0mSHOW TABLES[0m
+  [4;36;1mPost Columns (0.001512)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+
+
+NoMethodError (undefined method `paginate' for #<Class:0x253e7f4>):
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/base.rb:1667:in `method_missing'
+    /app/controllers/posts_controller.rb:6:in `index'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `perform_action_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+=======
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
     script/server:3
@@ -26892,6 +27066,7 @@ ActionController::RoutingError (No route matches "/submit/" with {:method=>:get}
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/route_set.rb:384:in `recognize'
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:148:in `handle_request'
+>>>>>>> c12f13629401cdb2342a1483a0a72b5f29b55651:log/development.log
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
@@ -26921,12 +27096,56 @@ ActionController::RoutingError (No route matches "/submit/" with {:method=>:get}
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
     /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+<<<<<<< HEAD:log/development.log
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+=======
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
+>>>>>>> c12f13629401cdb2342a1483a0a72b5f29b55651:log/development.log
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
     /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+<<<<<<< HEAD:log/development.log
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:20:52) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mSQL (0.000362)[0m   [0mSHOW TABLES[0m
+  [4;36;1mPost Columns (0.001575)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+
+
+NoMethodError (undefined method `paginate' for #<Class:0x240eac8>):
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/base.rb:1667:in `method_missing'
+    /app/controllers/posts_controller.rb:6:in `index'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `perform_action_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+=======
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
     script/server:3
@@ -26945,6 +27164,7 @@ ActionController::MethodNotAllowed (Only get, head, post, put, and delete reques
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/recognition_optimisation.rb:65:in `recognize_path'
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/route_set.rb:384:in `recognize'
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:148:in `handle_request'
+>>>>>>> c12f13629401cdb2342a1483a0a72b5f29b55651:log/development.log
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
@@ -26974,12 +27194,56 @@ ActionController::MethodNotAllowed (Only get, head, post, put, and delete reques
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
     /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+<<<<<<< HEAD:log/development.log
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+=======
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
+>>>>>>> c12f13629401cdb2342a1483a0a72b5f29b55651:log/development.log
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
     /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+<<<<<<< HEAD:log/development.log
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:20:53) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mSQL (0.000428)[0m   [0mSHOW TABLES[0m
+  [4;36;1mPost Columns (0.001465)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+
+
+NoMethodError (undefined method `paginate' for #<Class:0x22de7c0>):
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/base.rb:1667:in `method_missing'
+    /app/controllers/posts_controller.rb:6:in `index'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `perform_action_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+=======
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
     script/server:3
@@ -26998,6 +27262,7 @@ ActionController::MethodNotAllowed (Only get, head, post, put, and delete reques
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/recognition_optimisation.rb:65:in `recognize_path'
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/route_set.rb:384:in `recognize'
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:148:in `handle_request'
+>>>>>>> c12f13629401cdb2342a1483a0a72b5f29b55651:log/development.log
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
@@ -27027,12 +27292,56 @@ ActionController::MethodNotAllowed (Only get, head, post, put, and delete reques
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
     /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+<<<<<<< HEAD:log/development.log
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+=======
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
+>>>>>>> c12f13629401cdb2342a1483a0a72b5f29b55651:log/development.log
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
     /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+<<<<<<< HEAD:log/development.log
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:20:55) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mSQL (0.000358)[0m   [0mSHOW TABLES[0m
+  [4;36;1mPost Columns (0.069408)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+
+
+NoMethodError (undefined method `paginate' for #<Class:0x251ebac>):
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/base.rb:1667:in `method_missing'
+    /app/controllers/posts_controller.rb:6:in `index'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `perform_action_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+=======
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
     script/server:3
@@ -27051,6 +27360,7 @@ ActionController::MethodNotAllowed (Only get, head, post, put, and delete reques
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/recognition_optimisation.rb:65:in `recognize_path'
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/route_set.rb:384:in `recognize'
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:148:in `handle_request'
+>>>>>>> c12f13629401cdb2342a1483a0a72b5f29b55651:log/development.log
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
@@ -27080,12 +27390,57 @@ ActionController::MethodNotAllowed (Only get, head, post, put, and delete reques
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
     /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+<<<<<<< HEAD:log/development.log
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+=======
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
+>>>>>>> c12f13629401cdb2342a1483a0a72b5f29b55651:log/development.log
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
     /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+<<<<<<< HEAD:log/development.log
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:22:28) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;36;1mSQL (0.000219)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (0.000405)[0m   [0mSHOW TABLES[0m
+  [4;36;1mPost Columns (0.001577)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+
+
+NoMethodError (undefined method `paginate' for #<Class:0x2541094>):
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/base.rb:1667:in `method_missing'
+    /app/controllers/posts_controller.rb:6:in `index'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `perform_action_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+=======
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
     script/server:3
@@ -27104,6 +27459,7 @@ ActionController::MethodNotAllowed (Only get, head, post, put, and delete reques
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/recognition_optimisation.rb:65:in `recognize_path'
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/route_set.rb:384:in `recognize'
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:148:in `handle_request'
+>>>>>>> c12f13629401cdb2342a1483a0a72b5f29b55651:log/development.log
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
@@ -27133,12 +27489,56 @@ ActionController::MethodNotAllowed (Only get, head, post, put, and delete reques
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
     /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+<<<<<<< HEAD:log/development.log
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+=======
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
+>>>>>>> c12f13629401cdb2342a1483a0a72b5f29b55651:log/development.log
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
     /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+<<<<<<< HEAD:log/development.log
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:22:29) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mSQL (0.000354)[0m   [0mSHOW TABLES[0m
+  [4;36;1mPost Columns (0.001482)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+
+
+NoMethodError (undefined method `paginate' for #<Class:0x2413758>):
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/base.rb:1667:in `method_missing'
+    /app/controllers/posts_controller.rb:6:in `index'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `perform_action_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+=======
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
     script/server:3
@@ -27157,6 +27557,7 @@ ActionController::RoutingError (No route matches "/submit/" with {:method=>:get}
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/route_set.rb:384:in `recognize'
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:148:in `handle_request'
+>>>>>>> c12f13629401cdb2342a1483a0a72b5f29b55651:log/development.log
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
@@ -27186,12 +27587,38 @@ ActionController::RoutingError (No route matches "/submit/" with {:method=>:get}
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
     /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+<<<<<<< HEAD:log/development.log
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+=======
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
+>>>>>>> c12f13629401cdb2342a1483a0a72b5f29b55651:log/development.log
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
     /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+<<<<<<< HEAD:log/development.log
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:23:30) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;36;1mSQL (0.000220)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mPost Load (0.000443)[0m   [0mSELECT * FROM `posts` ORDER BY created_at DESC LIMIT 0, 10[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mPost Columns (0.001715)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+=======
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
     script/server:3
@@ -27208,16 +27635,85 @@ c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
 Rendering template within layouts/application
 Rendering posts/index
   [4;36;1mPost Columns (0.002055)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+>>>>>>> c12f13629401cdb2342a1483a0a72b5f29b55651:log/development.log
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+<<<<<<< HEAD:log/development.log
+Rendered layouts/_header (0.00034)
+Rendered layouts/_footer (0.00002)
+Completed in 0.23802 (4 reqs/sec) | Rendering: 0.23007 (96%) | DB: 0.00238 (0%) | 200 OK [http://localhost/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:24:21) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000416)[0m   [0mSELECT * FROM `posts` ORDER BY created_at DESC LIMIT 0, 10[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mPost Columns (0.001572)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+=======
+>>>>>>> c12f13629401cdb2342a1483a0a72b5f29b55651:log/development.log
 [paperclip] S3 Storage Initalized.
 [paperclip] Paperclip attachment image on Post initialized.
 [paperclip] S3 Storage Initalized.
 [paperclip] Paperclip attachment image on Post initialized.
 [paperclip] S3 Storage Initalized.
 [paperclip] Paperclip attachment image on Post initialized.
+<<<<<<< HEAD:log/development.log
+Rendered layouts/_header (0.00016)
+Rendered layouts/_footer (0.00002)
+Completed in 0.08532 (11 reqs/sec) | Rendering: 0.07771 (91%) | DB: 0.00199 (2%) | 200 OK [http://localhost/]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2008-11-05 03:24:56) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"show", "id"=>"3", "controller"=>"posts"}
+  [4;35;1mPost Columns (0.001815)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mPost Load (0.000453)[0m   [0;1mSELECT * FROM `posts` WHERE (`posts`.`id` = 3) [0m
+Rendering template within layouts/application
+Rendering posts/show
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00024)
+Rendered layouts/_footer (0.00004)
+Completed in 0.01594 (62 reqs/sec) | Rendering: 0.00781 (48%) | DB: 0.00227 (14%) | 200 OK [http://localhost/posts/3]
+
+
+Processing PostsController#gallery (for 127.0.0.1 at 2008-11-05 03:24:58) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"gallery", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000399)[0m   [0mSELECT * FROM `posts` ORDER BY created_at DESC LIMIT 0, 36[0m
+Rendering template within layouts/application
+Rendering posts/gallery
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+  [4;36;1mPost Columns (0.001632)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
 [paperclip] S3 Storage Initalized.
 [paperclip] Paperclip attachment image on Post initialized.
 [paperclip] S3 Storage Initalized.
 [paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00015)
+Rendered layouts/_footer (0.00002)
+Completed in 0.01866 (53 reqs/sec) | Rendering: 0.01152 (61%) | DB: 0.00203 (10%) | 200 OK [http://localhost/gallery/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2008-11-05 03:25:09) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/submit/" with {:method=>:get}):
+=======
 Rendered layouts/_header (0.00015)
 Rendered layouts/_footer (0.00002)
 Completed in 0.03017 (33 reqs/sec) | Rendering: 0.02085 (69%) | DB: 0.00360 (11%) | 200 OK [http://localhost/]
@@ -27243,6 +27739,7 @@ c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
 
 
 ActionController::RoutingError (No route matches "/store/" with {:method=>:get}):
+>>>>>>> c12f13629401cdb2342a1483a0a72b5f29b55651:log/development.log
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/route_set.rb:384:in `recognize'
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:148:in `handle_request'
@@ -27275,19 +27772,55 @@ ActionController::RoutingError (No route matches "/store/" with {:method=>:get})
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
     /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+<<<<<<< HEAD:log/development.log
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+=======
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
+>>>>>>> c12f13629401cdb2342a1483a0a72b5f29b55651:log/development.log
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
     /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+<<<<<<< HEAD:log/development.log
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+=======
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
+>>>>>>> c12f13629401cdb2342a1483a0a72b5f29b55651:log/development.log
     script/server:3
 
 Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (not_found)
 
 
+<<<<<<< HEAD:log/development.log
+Processing PostsController#gallery (for 127.0.0.1 at 2008-11-05 03:25:10) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"gallery", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000409)[0m   [0mSELECT * FROM `posts` ORDER BY created_at DESC LIMIT 0, 36[0m
+Rendering template within layouts/application
+Rendering posts/gallery
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+  [4;36;1mPost Columns (0.001609)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00016)
+Rendered layouts/_footer (0.00002)
+Completed in 0.01846 (54 reqs/sec) | Rendering: 0.01108 (60%) | DB: 0.00202 (10%) | 200 OK [http://localhost/gallery/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2008-11-05 03:25:11) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+=======
 Processing PagesController#contact (for 127.0.0.1 at 2008-11-05 03:26:35) [GET]
   Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
 YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
@@ -27304,6 +27837,7 @@ Processing ApplicationController#index (for 127.0.0.1 at 2008-11-05 03:26:36) [G
   Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
 YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
 c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+>>>>>>> c12f13629401cdb2342a1483a0a72b5f29b55651:log/development.log
   Parameters: {}
 
 
@@ -27340,19 +27874,37 @@ ActionController::RoutingError (No route matches "/submit/" with {:method=>:get}
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
     /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+<<<<<<< HEAD:log/development.log
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+=======
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
+>>>>>>> c12f13629401cdb2342a1483a0a72b5f29b55651:log/development.log
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
     /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+<<<<<<< HEAD:log/development.log
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+=======
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
+>>>>>>> c12f13629401cdb2342a1483a0a72b5f29b55651:log/development.log
     script/server:3
 
 Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (not_found)
 
 
+<<<<<<< HEAD:log/development.log
+Processing PostsController#gallery (for 127.0.0.1 at 2008-11-05 03:25:14) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"gallery", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000414)[0m   [0mSELECT * FROM `posts` ORDER BY created_at DESC LIMIT 0, 36[0m
+=======
 Processing PagesController#contact (for 127.0.0.1 at 2008-11-05 03:26:37) [GET]
   Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
 YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
@@ -27395,13 +27947,36 @@ YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
 c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
   Parameters: {"action"=>"gallery", "controller"=>"posts"}
   [4;35;1mPost Load (0.000471)[0m   [0mSELECT * FROM `posts` ORDER BY created_at DESC LIMIT 0, 36[0m
+>>>>>>> c12f13629401cdb2342a1483a0a72b5f29b55651:log/development.log
 Rendering template within layouts/application
 Rendering posts/gallery
 [paperclip] S3 Storage Initalized.
 [paperclip] Paperclip attachment image on Post initialized.
+<<<<<<< HEAD:log/development.log
+  [4;36;1mPost Columns (0.001672)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00018)
+Rendered layouts/_footer (0.00002)
+Completed in 0.08014 (12 reqs/sec) | Rendering: 0.07281 (90%) | DB: 0.00209 (2%) | 200 OK [http://localhost/gallery/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:25:15) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000395)[0m   [0mSELECT * FROM `posts` ORDER BY created_at DESC LIMIT 0, 10[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mPost Columns (0.001480)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+=======
   [4;36;1mPost Columns (0.002082)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
 [paperclip] S3 Storage Initalized.
 [paperclip] Paperclip attachment image on Post initialized.
+>>>>>>> c12f13629401cdb2342a1483a0a72b5f29b55651:log/development.log
 [paperclip] S3 Storage Initalized.
 [paperclip] Paperclip attachment image on Post initialized.
 [paperclip] S3 Storage Initalized.
@@ -27410,6 +27985,20 @@ Rendering posts/gallery
 [paperclip] Paperclip attachment image on Post initialized.
 Rendered layouts/_header (0.00015)
 Rendered layouts/_footer (0.00002)
+<<<<<<< HEAD:log/development.log
+Completed in 0.02081 (48 reqs/sec) | Rendering: 0.01353 (65%) | DB: 0.00187 (9%) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2008-11-05 03:25:16) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/submit/" with {:method=>:get}):
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+=======
 Completed in 0.08936 (11 reqs/sec) | Rendering: 0.08158 (91%) | DB: 0.00255 (2%) | 200 OK [http://localhost/gallery/]
 
 
@@ -27446,6 +28035,7 @@ c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
 
 ActionController::MethodNotAllowed (Only get, head, post, put, and delete requests are allowed.):
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/recognition_optimisation.rb:65:in `recognize_path'
+>>>>>>> c12f13629401cdb2342a1483a0a72b5f29b55651:log/development.log
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/route_set.rb:384:in `recognize'
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:148:in `handle_request'
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
@@ -27477,12 +28067,82 @@ ActionController::MethodNotAllowed (Only get, head, post, put, and delete reques
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
     /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+<<<<<<< HEAD:log/development.log
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+=======
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
+>>>>>>> c12f13629401cdb2342a1483a0a72b5f29b55651:log/development.log
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
     /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+<<<<<<< HEAD:log/development.log
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:25:20) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000389)[0m   [0mSELECT * FROM `posts` ORDER BY created_at DESC LIMIT 0, 10[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mPost Columns (0.001568)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00015)
+Rendered layouts/_footer (0.00002)
+Completed in 0.02042 (48 reqs/sec) | Rendering: 0.01330 (65%) | DB: 0.00196 (9%) | 200 OK [http://localhost/]
+
+
+Processing PagesController#faq (for 127.0.0.1 at 2008-11-05 03:25:21) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"faq", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/faq
+Rendered layouts/_header (0.00017)
+Rendered layouts/_footer (0.00002)
+Completed in 0.00327 (305 reqs/sec) | Rendering: 0.00149 (45%) | DB: 0.00000 (0%) | 200 OK [http://localhost/faq/]
+
+
+Processing PostsController#gallery (for 127.0.0.1 at 2008-11-05 03:25:22) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"gallery", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000403)[0m   [0mSELECT * FROM `posts` ORDER BY created_at DESC LIMIT 0, 36[0m
+Rendering template within layouts/application
+Rendering posts/gallery
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+  [4;36;1mPost Columns (0.001659)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00016)
+Rendered layouts/_footer (0.00002)
+Completed in 0.01815 (55 reqs/sec) | Rendering: 0.01066 (58%) | DB: 0.00206 (11%) | 200 OK [http://localhost/gallery/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2008-11-05 03:25:23) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+=======
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
     script/server:3
@@ -27506,6 +28166,7 @@ Processing ApplicationController#index (for 127.0.0.1 at 2008-11-05 03:27:10) [G
   Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
 YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
 c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+>>>>>>> c12f13629401cdb2342a1483a0a72b5f29b55651:log/development.log
   Parameters: {}
 
 
@@ -27542,19 +28203,97 @@ ActionController::RoutingError (No route matches "/store/" with {:method=>:get})
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
     /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+<<<<<<< HEAD:log/development.log
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+=======
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
+>>>>>>> c12f13629401cdb2342a1483a0a72b5f29b55651:log/development.log
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
     /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+<<<<<<< HEAD:log/development.log
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+=======
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
+>>>>>>> c12f13629401cdb2342a1483a0a72b5f29b55651:log/development.log
     script/server:3
 
 Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (not_found)
 
 
+<<<<<<< HEAD:log/development.log
+Processing PostsController#gallery (for 127.0.0.1 at 2008-11-05 03:25:24) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"gallery", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000402)[0m   [0mSELECT * FROM `posts` ORDER BY created_at DESC LIMIT 0, 36[0m
+Rendering template within layouts/application
+Rendering posts/gallery
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+  [4;36;1mPost Columns (0.002030)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00018)
+Rendered layouts/_footer (0.00002)
+Completed in 0.08580 (11 reqs/sec) | Rendering: 0.07807 (90%) | DB: 0.00243 (2%) | 200 OK [http://localhost/gallery/]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2008-11-05 03:25:26) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"contact", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_header (0.00018)
+Rendered layouts/_footer (0.00002)
+Completed in 0.00349 (286 reqs/sec) | Rendering: 0.00153 (43%) | DB: 0.00000 (0%) | 200 OK [http://localhost/contact/]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2008-11-05 03:26:14) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"contact", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_header (0.00021)
+Rendered layouts/_footer (0.00002)
+Completed in 0.00444 (225 reqs/sec) | Rendering: 0.00260 (58%) | DB: 0.00000 (0%) | 200 OK [http://localhost/contact/]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2008-11-05 03:26:15) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"new", "controller"=>"posts"}
+  [4;35;1mPost Columns (0.001617)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/application
+Rendering posts/new
+Rendered layouts/_header (0.00016)
+Rendered layouts/_footer (0.00002)
+Completed in 0.01497 (66 reqs/sec) | Rendering: 0.00789 (52%) | DB: 0.00162 (10%) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:26:22) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;36;1mPost Load (0.000382)[0m   [0;1mSELECT * FROM `posts` ORDER BY created_at DESC LIMIT 0, 10[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;35;1mPost Columns (0.001505)[0m   [0mSHOW FIELDS FROM `posts`[0m
+=======
 Processing PagesController#contact (for 127.0.0.1 at 2008-11-05 03:27:11) [GET]
   Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
 YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
@@ -27600,12 +28339,44 @@ c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
 Rendering template within layouts/application
 Rendering posts/index
   [4;36;1mPost Columns (0.003181)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+>>>>>>> c12f13629401cdb2342a1483a0a72b5f29b55651:log/development.log
 [paperclip] S3 Storage Initalized.
 [paperclip] Paperclip attachment image on Post initialized.
 [paperclip] S3 Storage Initalized.
 [paperclip] Paperclip attachment image on Post initialized.
 [paperclip] S3 Storage Initalized.
 [paperclip] Paperclip attachment image on Post initialized.
+<<<<<<< HEAD:log/development.log
+Rendered layouts/_header (0.00016)
+Rendered layouts/_footer (0.00002)
+Completed in 0.02054 (48 reqs/sec) | Rendering: 0.01341 (65%) | DB: 0.00189 (9%) | 200 OK [http://localhost/]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2008-11-05 03:26:23) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"new", "controller"=>"posts"}
+  [4;36;1mPost Columns (0.001669)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/application
+Rendering posts/new
+Rendered layouts/_header (0.00016)
+Rendered layouts/_footer (0.00002)
+Completed in 0.01345 (74 reqs/sec) | Rendering: 0.00636 (47%) | DB: 0.00167 (12%) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:27:42) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000383)[0m   [0mSELECT * FROM `posts` ORDER BY created_at DESC LIMIT 0, 10[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mPost Columns (0.001519)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+=======
 [paperclip] S3 Storage Initalized.
 [paperclip] Paperclip attachment image on Post initialized.
 [paperclip] S3 Storage Initalized.
@@ -27626,10 +28397,24 @@ Rendering posts/gallery
 [paperclip] S3 Storage Initalized.
 [paperclip] Paperclip attachment image on Post initialized.
   [4;36;1mPost Columns (0.001560)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+>>>>>>> c12f13629401cdb2342a1483a0a72b5f29b55651:log/development.log
 [paperclip] S3 Storage Initalized.
 [paperclip] Paperclip attachment image on Post initialized.
 [paperclip] S3 Storage Initalized.
 [paperclip] Paperclip attachment image on Post initialized.
+<<<<<<< HEAD:log/development.log
+Rendered layouts/_header (0.00016)
+Rendered layouts/_footer (0.00002)
+Completed in 0.02076 (48 reqs/sec) | Rendering: 0.01367 (65%) | DB: 0.00190 (9%) | 200 OK [http://localhost/]
+
+
+Processing PostsController#gallery (for 127.0.0.1 at 2008-11-05 03:28:08) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"gallery", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000399)[0m   [0mSELECT * FROM `posts` ORDER BY created_at DESC LIMIT 0, 36[0m
+=======
 [paperclip] S3 Storage Initalized.
 [paperclip] Paperclip attachment image on Post initialized.
 [paperclip] S3 Storage Initalized.
@@ -27734,15 +28519,109 @@ YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
 c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
   Parameters: {"action"=>"gallery", "controller"=>"posts"}
   [4;35;1mPost Load (0.000525)[0m   [0mSELECT * FROM `posts` ORDER BY created_at DESC LIMIT 0, 36[0m
+>>>>>>> c12f13629401cdb2342a1483a0a72b5f29b55651:log/development.log
 Rendering template within layouts/application
 Rendering posts/gallery
 [paperclip] S3 Storage Initalized.
 [paperclip] Paperclip attachment image on Post initialized.
+<<<<<<< HEAD:log/development.log
+  [4;36;1mPost Columns (0.001530)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+=======
   [4;36;1mPost Columns (0.001563)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+>>>>>>> c12f13629401cdb2342a1483a0a72b5f29b55651:log/development.log
 [paperclip] S3 Storage Initalized.
 [paperclip] Paperclip attachment image on Post initialized.
 [paperclip] S3 Storage Initalized.
 [paperclip] Paperclip attachment image on Post initialized.
+<<<<<<< HEAD:log/development.log
+Rendered layouts/_header (0.00016)
+Rendered layouts/_footer (0.00002)
+Completed in 0.01865 (53 reqs/sec) | Rendering: 0.01121 (60%) | DB: 0.00193 (10%) | 200 OK [http://localhost/gallery/]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2008-11-05 03:50:26) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"contact", "controller"=>"pages"}
+  [4;36;1mSQL (0.000201)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_header (0.00033)
+Rendered layouts/_footer (0.00002)
+Completed in 0.03346 (29 reqs/sec) | Rendering: 0.03161 (94%) | DB: 0.00020 (0%) | 200 OK [http://localhost/contact/]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2008-11-05 03:50:27) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"contact", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_header (0.00019)
+Rendered layouts/_footer (0.00002)
+Completed in 0.00376 (265 reqs/sec) | Rendering: 0.00204 (54%) | DB: 0.00000 (0%) | 200 OK [http://localhost/contact/]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2008-11-05 03:50:28) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"contact", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_header (0.00016)
+Rendered layouts/_footer (0.00002)
+Completed in 0.00395 (252 reqs/sec) | Rendering: 0.00203 (51%) | DB: 0.00000 (0%) | 200 OK [http://localhost/contact/]
+
+
+Processing PagesController#send_mail (for 127.0.0.1 at 2008-11-05 03:53:26) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"ba0e673744afc5dd9df0edbad442454248359afd", "action"=>"send_mail", "controller"=>"pages", "email"=>{"name"=>"Akshay", "body"=>"this is the body\r\n", "subject"=>"testing message", "address"=>"dodeja@gmail.com"}}
+Sent mail to myemail@mydomain.ca
+
+Date: Wed, 5 Nov 2008 03:53:26 -0800
+From: dodeja@gmail.com
+To: myemail@mydomain.ca
+Subject: [wedidit.us] contact - testing message
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+Akshay wrote you an email:
+
+---
+this is the body
+
+---
+
+
+NoMethodError (undefined method `perform_delivery_activerecord' for #<UserMailer:0x22b8160>):
+    /Library/Ruby/Gems/1.8/gems/actionmailer-2.1.0/lib/action_mailer/base.rb:508:in `__send__'
+    /Library/Ruby/Gems/1.8/gems/actionmailer-2.1.0/lib/action_mailer/base.rb:508:in `deliver!'
+    /Library/Ruby/Gems/1.8/gems/actionmailer-2.1.0/lib/action_mailer/base.rb:383:in `method_missing'
+    /app/controllers/pages_controller.rb:9:in `send_mail'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `perform_action_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+=======
 [paperclip] S3 Storage Initalized.
 [paperclip] Paperclip attachment image on Post initialized.
 [paperclip] S3 Storage Initalized.
@@ -27775,6 +28654,7 @@ ActionController::RoutingError (No route matches "/submit/" with {:method=>:get}
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/route_set.rb:384:in `recognize'
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:148:in `handle_request'
+>>>>>>> c12f13629401cdb2342a1483a0a72b5f29b55651:log/development.log
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
@@ -27804,12 +28684,94 @@ ActionController::RoutingError (No route matches "/submit/" with {:method=>:get}
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
     /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+<<<<<<< HEAD:log/development.log
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+=======
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
+>>>>>>> c12f13629401cdb2342a1483a0a72b5f29b55651:log/development.log
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
     /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+<<<<<<< HEAD:log/development.log
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2008-11-05 03:57:38) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"contact", "controller"=>"pages"}
+  [4;36;1mSQL (0.000307)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_header (0.00033)
+Rendered layouts/_footer (0.00002)
+Completed in 0.00858 (116 reqs/sec) | Rendering: 0.00642 (74%) | DB: 0.00031 (3%) | 200 OK [http://localhost/contact/]
+
+
+Processing PagesController#send_mail (for 127.0.0.1 at 2008-11-05 03:57:39) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"ba0e673744afc5dd9df0edbad442454248359afd", "action"=>"send_mail", "controller"=>"pages", "email"=>{"name"=>"Akshay", "body"=>"this is the body\r\n", "subject"=>"testing message", "address"=>"dodeja@gmail.com"}}
+Sent mail to myemail@mydomain.ca
+
+Date: Wed, 5 Nov 2008 03:57:39 -0800
+From: dodeja@gmail.com
+To: myemail@mydomain.ca
+Subject: [wedidit.us] contact - testing message
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+Akshay wrote you an email:
+
+---
+this is the body
+
+---
+
+
+Errno::ECONNREFUSED (Connection refused - connect(2)):
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/protocol.rb:206:in `initialize'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/protocol.rb:206:in `new'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/protocol.rb:206:in `old_open'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/timeout.rb:56:in `timeout'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/timeout.rb:76:in `timeout'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/protocol.rb:206:in `old_open'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/smtp.rb:393:in `do_start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/smtp.rb:378:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/smtp.rb:316:in `start'
+    /Library/Ruby/Gems/1.8/gems/actionmailer-2.1.0/lib/action_mailer/base.rb:627:in `perform_delivery_smtp'
+    /Library/Ruby/Gems/1.8/gems/actionmailer-2.1.0/lib/action_mailer/base.rb:508:in `__send__'
+    /Library/Ruby/Gems/1.8/gems/actionmailer-2.1.0/lib/action_mailer/base.rb:508:in `deliver!'
+    /Library/Ruby/Gems/1.8/gems/actionmailer-2.1.0/lib/action_mailer/base.rb:383:in `method_missing'
+    /app/controllers/pages_controller.rb:9:in `send_mail'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `perform_action_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+=======
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
     script/server:3
@@ -27828,6 +28790,7 @@ ActionController::MethodNotAllowed (Only get, head, post, put, and delete reques
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/recognition_optimisation.rb:65:in `recognize_path'
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/route_set.rb:384:in `recognize'
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:148:in `handle_request'
+>>>>>>> c12f13629401cdb2342a1483a0a72b5f29b55651:log/development.log
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
     /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
@@ -27857,12 +28820,24 @@ ActionController::MethodNotAllowed (Only get, head, post, put, and delete reques
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
     /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+<<<<<<< HEAD:log/development.log
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+=======
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
+>>>>>>> c12f13629401cdb2342a1483a0a72b5f29b55651:log/development.log
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
     /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
     /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+<<<<<<< HEAD:log/development.log
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+=======
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
     /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
     script/server:3
@@ -28732,6 +29707,7 @@ Rendering posts/index
 Rendered layouts/_header (0.00016)
 Rendered layouts/_footer (0.00002)
 Completed in 0.03087 (32 reqs/sec) | Rendering: 0.01899 (61%) | DB: 0.00671 (21%) | 200 OK [http://localhost/]
+<<<<<<< HEAD:log/development.log
 
 
 Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:37:15) [GET]
@@ -31217,3 +32193,6 @@ Rendering posts/index
 Rendered layouts/_header (0.00016)
 Rendered layouts/_footer (0.00002)
 Completed in 0.02787 (35 reqs/sec) | Rendering: 0.02026 (72%) | DB: 0.00215 (7%) | 200 OK [http://localhost/]
+=======
+>>>>>>> c12f13629401cdb2342a1483a0a72b5f29b55651:log/development.log
+>>>>>>> ae70bff2e123e5c2455124128a5ffbdc61186e00:log/development.log

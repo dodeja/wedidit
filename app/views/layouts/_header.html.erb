@@ -1,6 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
+ 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
   <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
@@ -10,19 +10,19 @@
   <%= javascript_include_tag "application.js" %>
 </head>
 <body>
-
+ 
 <div id="container">
-	<div id="logo"></div>
-	<div class="page">
-		<div id="menu">
-			<ul>
-				<li><a href="/" title="Home">Home</a></li>
-				<li><a href="/gallery/" title="Gallery">Gallery</a></li>
-				<li><a href="/faq/" title="FAQ">FAQ</a></li>
-				<li><%= link_to 'Submit', '/submit/' %></li>
-				<li><a href="http://www.cafepress.com/wedidit_us/" title="Store">Store</a></li>
-				<li class="last"><a href="/contact/" title="Contact">Contact</a></li>
-			</ul>
-		</div>
-		
-	<p style="color: green"><%= flash[:notice] %></p>
+  <div id="logo"></div>
+  <div class="page">
+    <div id="menu">
+      <ul>
+        <li><a href="/" title="Home">Home</a></li>
+        <li><a href="/gallery/" title="Gallery">Gallery</a></li>
+        <li><a href="/faq/" title="FAQ">FAQ</a></li>
+        <li><%= link_to 'Submit', new_post_path %></li>
+        <li><a href="http://www.cafepress.com/wedidit_us/" title="Store">Store</a></li>
+        <li class="last"><a href="/contact/" title="Contact">Contact</a></li>
+      </ul>
+    </div>
+    
+  <p style="color: green"><%= flash[:notice] %></p>
