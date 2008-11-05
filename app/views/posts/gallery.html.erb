@@ -1,0 +1,11 @@
+<div class="posts">
+	<ul class="gallery">
+		<% for post in @posts %>
+			<% unless post.image.url == "/images/original/missing.png" %>
+				<li class="gallery-image">
+					<span class="shadowed-image"><%= link_to image_tag(post.image.url(:small)), :controller => 'posts', :action => 'show', :id => post.id  %></span>
+				</li>
+			<% end %>
+		<% end %>
+	</ul>
+</div>

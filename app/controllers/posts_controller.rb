@@ -11,6 +11,16 @@ class PostsController < ApplicationController
     end
   end
 
+  def gallery
+    @posts = Post.find(:all, :order => 'created_at desc')
+
+    respond_to do |format|
+      format.html # gallery.html.erb
+      format.xml  { render :xml => @posts }
+    end
+  end
+
+
   # GET /posts/1
   # GET /posts/1.xml
   def show
@@ -74,7 +84,7 @@ class PostsController < ApplicationController
 
   # DELETE /posts/1
   # DELETE /posts/1.xml
-  def destroy
+  def remove_post
     @post = Post.find(params[:id])
     @post.destroy
 

@@ -9,7 +9,7 @@
 		</div>
 
 		<div class="post-meta">
-			<h2 class="name"><%=h post.name %></h2>
+			<h2 class="name"><%= link_to post.name, :controller => 'posts', :action => 'show', :id => post %></h2>
 		    <p><%=h post.name %> in <%=h post.city %>, <%=h post.state %> (<%=h post.country %>)</p>			
 		</div>
 
@@ -20,8 +20,9 @@
 		<% end %>
 
 	    <p><%=h post.content %></p>
-
-	    <p class="actions"><%= link_to 'Show', post %> | <%= link_to 'Edit', edit_post_path(post) %> | <%= link_to 'Destroy', post, :confirm => 'Are you sure?', :method => :delete %></p>
+		<% if params[:admin] && params[:admin] == "heckyes" %>
+	    	<p class="actions"><%= link_to 'Show', post %> | <%= link_to 'Edit', edit_post_path(post) %> | <%= link_to 'Delete', post, :confirm => 'Are you sure?', :method => :remove_post %></p>
+		<% end %>
 	</div>
 	<% end %>
 

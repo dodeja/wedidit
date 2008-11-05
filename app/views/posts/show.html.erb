@@ -1,59 +1,25 @@
-<p>
-  <b>Created at:</b>
-  <%=h @post.created_at %>
-</p>
+<div class="posts">
+	<div class="post">
+	    <div class="date">
+			<div class="date-inner">
+				<%=h @post.created_at.strftime("%b") %>
+				<span class="datenum"><%=h @post.created_at.strftime("%d") %></span>
+			</div>
+		</div>
 
-<p>
-  <b>Updated at:</b>
-  <%=h @post.updated_at %>
-</p>
+		<div class="post-meta">
+			<h2 class="name"><%= link_to @post.name, :controller => 'posts', :action => 'show', :id => @post %></h2>
+		    <p><%=h @post.name %> in <%=h @post.city %>, <%=h @post.state %> (<%=h @post.country %>)</p>			
+		</div>
 
-<p>
-  <b>Name:</b>
-  <%=h @post.name %>
-</p>
+		<% unless @post.image.url == "/images/original/missing.png" %>
+			<p style="text-align: center;">
+				<span class="shadowed-image"><%= image_tag @post.image.url(:regular)  %></span>
+			</p>
+		<% end %>
 
-<p>
-  <b>Email:</b>
-  <%=h @post.email %>
-</p>
+	    <p><%=h @post.content %></p>
 
-<p>
-  <b>Content:</b>
-  <%=h @post.content %>
-</p>
+	</div>
 
-<p>
-  <b>Published:</b>
-  <%=h @post.published %>
-</p>
-
-<p>
-  <b>City:</b>
-  <%=h @post.city %>
-</p>
-
-<p>
-  <b>State:</b>
-  <%=h @post.state %>
-</p>
-
-<p>
-  <b>Country:</b>
-  <%=h @post.country %>
-</p>
-
-<p>
-  <b>Geo:</b>
-  Lat: <%=h @post.lat %><br />
-  Long: <%=h @post.lng %>
-</p>
-
-<p>
-	<strong>Image</strong>
-	<%= image_tag @post.image.url(:regular) %>
-</p>
-
-
-<%= link_to 'Edit', edit_post_path(@post) %> |
-<%= link_to 'Back', posts_path %>
+</div>
