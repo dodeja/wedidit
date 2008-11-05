@@ -1,4 +1,15 @@
 <div class="inner">
+	<% if params[:page].blank? %>
+		<h3>Congratulations, everyone - we did it.</h3>
+		<p>&nbsp;</p>
+		<p>Following the disappointment of the 2000 and 2004 elections, it seems we've learned from our mistakes.
+			We think that's a victory worth celebrating.
+		</p>
+		<p>&nbsp;</p>
+		<h2><a href="/submit/">Show us your sign!</a></h2>
+		<p>&nbsp;</p>
+	<% end %>
+	
 	<% for post in @posts %>
 	<div class="post">
 	    <div class="date">

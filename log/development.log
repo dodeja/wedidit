@@ -28732,3 +28732,2488 @@ Rendering posts/index
 Rendered layouts/_header (0.00016)
 Rendered layouts/_footer (0.00002)
 Completed in 0.03087 (32 reqs/sec) | Rendering: 0.01899 (61%) | DB: 0.00671 (21%) | 200 OK [http://localhost/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:37:15) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000639)[0m   [0mSELECT * FROM `posts` ORDER BY created_at DESC LIMIT 0, 10[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mPost Columns (0.002176)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00020)
+Rendered layouts/_footer (0.00002)
+Completed in 0.03065 (32 reqs/sec) | Rendering: 0.02201 (71%) | DB: 0.00281 (9%) | 200 OK [http://localhost/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:38:31) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000406)[0m   [0mSELECT * FROM `posts` ORDER BY created_at DESC LIMIT 0, 10[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mPost Columns (0.001638)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00015)
+Rendered layouts/_footer (0.00002)
+Completed in 0.09221 (10 reqs/sec) | Rendering: 0.02151 (23%) | DB: 0.00204 (2%) | 200 OK [http://localhost/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:39:52) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000508)[0m   [0mSELECT * FROM `posts` ORDER BY created_at DESC LIMIT 0, 10[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mPost Columns (0.001920)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00015)
+Rendered layouts/_footer (0.00002)
+Completed in 0.03419 (29 reqs/sec) | Rendering: 0.02636 (77%) | DB: 0.00243 (7%) | 200 OK [http://localhost/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:40:02) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000466)[0m   [0mSELECT * FROM `posts` ORDER BY created_at DESC LIMIT 0, 10[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mPost Columns (0.001485)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00015)
+Rendered layouts/_footer (0.00002)
+Completed in 0.02958 (33 reqs/sec) | Rendering: 0.02199 (74%) | DB: 0.00195 (6%) | 200 OK [http://localhost/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:40:19) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000542)[0m   [0mSELECT * FROM `posts` ORDER BY created_at DESC LIMIT 0, 10[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mPost Columns (0.004158)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00015)
+Rendered layouts/_footer (0.00002)
+Completed in 0.03363 (29 reqs/sec) | Rendering: 0.02393 (71%) | DB: 0.00470 (13%) | 200 OK [http://localhost/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:40:42) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000427)[0m   [0mSELECT * FROM `posts` ORDER BY created_at DESC LIMIT 0, 10[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mPost Columns (0.001515)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00015)
+Rendered layouts/_footer (0.00002)
+Completed in 0.03222 (31 reqs/sec) | Rendering: 0.02496 (77%) | DB: 0.00194 (6%) | 200 OK [http://localhost/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:41:04) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000655)[0m   [0mSELECT * FROM `posts` ORDER BY created_at DESC LIMIT 0, 10[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mPost Columns (0.001619)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00015)
+Rendered layouts/_footer (0.00002)
+Completed in 0.03167 (31 reqs/sec) | Rendering: 0.02441 (77%) | DB: 0.00227 (7%) | 200 OK [http://localhost/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:41:12) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000586)[0m   [0mSELECT * FROM `posts` ORDER BY created_at DESC LIMIT 0, 10[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mPost Columns (0.002285)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00015)
+Rendered layouts/_footer (0.00002)
+Completed in 0.03059 (32 reqs/sec) | Rendering: 0.02257 (73%) | DB: 0.00287 (9%) | 200 OK [http://localhost/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:41:22) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000689)[0m   [0mSELECT * FROM `posts` ORDER BY created_at DESC LIMIT 0, 10[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mPost Columns (0.002355)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00015)
+Rendered layouts/_footer (0.00002)
+Completed in 0.10034 (9 reqs/sec) | Rendering: 0.02165 (21%) | DB: 0.00304 (3%) | 200 OK [http://localhost/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:41:30) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000429)[0m   [0mSELECT * FROM `posts` ORDER BY created_at DESC LIMIT 0, 10[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mPost Columns (0.002236)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00015)
+Rendered layouts/_footer (0.00003)
+Completed in 0.02953 (33 reqs/sec) | Rendering: 0.02119 (71%) | DB: 0.00267 (9%) | 200 OK [http://localhost/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:41:34) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000590)[0m   [0mSELECT * FROM `posts` ORDER BY created_at DESC LIMIT 0, 10[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mPost Columns (0.001526)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00015)
+Rendered layouts/_footer (0.00002)
+Completed in 0.02825 (35 reqs/sec) | Rendering: 0.02115 (74%) | DB: 0.00212 (7%) | 200 OK [http://localhost/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:42:03) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000562)[0m   [0mSELECT * FROM `posts` ORDER BY created_at DESC LIMIT 0, 10[0m
+Rendering template within layouts/application
+Rendering posts/index
+ERROR: compiling _run_erb_47app47views47posts47index46html46erb RAISED compile error
+/Users/cscotta/Documents/Phoreo/Foundry/wedidit/app/views/posts/index.html.erb:2: syntax error, unexpected ')', expecting kTHEN or ':' or '\n' or ';'
+_erbout.concat "\t"; _erbout.concat(( if params[:page].blank? ).to_s); _erbout.concat "\n"
+                                                               ^
+/Users/cscotta/Documents/Phoreo/Foundry/wedidit/app/views/posts/index.html.erb:43: syntax error, unexpected kEND, expecting $end
+Function body: def _run_erb_47app47views47posts47index46html46erb(local_assigns)
+_erbout = ''; _erbout.concat "<div class=\"inner\">\n"
+_erbout.concat "\t"; _erbout.concat(( if params[:page].blank? ).to_s); _erbout.concat "\n"
+_erbout.concat "\t\t<h3>Congratulations, everyone - we did it.</h3>\n"
+_erbout.concat "\t\t<p>&nbsp;</p>\n"
+_erbout.concat "\t\t<p>Following the disappointment of the 2000 and 2004 elections, it seems we've learned from our mistakes.\n"
+_erbout.concat "\t\t\tWe think that's a victory worth celebrating.\n"
+_erbout.concat "\t\t</p>\n"
+_erbout.concat "\t\t<p>&nbsp;</p>\n"
+_erbout.concat "\t\t<h3><a href=\"/submit/\">Show us your sign!</a></h3>\n"
+_erbout.concat "\t\t<p>&nbsp;</p>\n"
+_erbout.concat "\t";  end ; _erbout.concat "\n"
+_erbout.concat "\t\n"
+_erbout.concat "\t";  for post in @posts ; _erbout.concat "\n"
+_erbout.concat "\t<div class=\"post\">\n"
+_erbout.concat "\t    <div class=\"date\">\n"
+_erbout.concat "\t\t\t<div class=\"date-inner\">\n"
+_erbout.concat "\t\t\t\t"; _erbout.concat((h post.created_at.strftime("%b") ).to_s); _erbout.concat "\n"
+_erbout.concat "\t\t\t\t<span class=\"datenum\">"; _erbout.concat((h post.created_at.strftime("%d") ).to_s); _erbout.concat "</span>\n"
+_erbout.concat "\t\t\t</div>\n"
+_erbout.concat "\t\t</div>\n"
+_erbout.concat "\n"
+_erbout.concat "\t\t<div class=\"post-meta\">\n"
+_erbout.concat "\t\t\t<h2 class=\"name\">"; _erbout.concat(( link_to post.name, :controller => 'posts', :action => 'show', :id => post ).to_s); _erbout.concat "</h2>\n"
+_erbout.concat "\t\t    <p>"; _erbout.concat((h post.name ).to_s); _erbout.concat " in "; _erbout.concat((h post.city ).to_s); _erbout.concat ", "; _erbout.concat((h post.state ).to_s); _erbout.concat " ("; _erbout.concat((h post.country ).to_s); _erbout.concat ")</p>\t\t\t\n"
+_erbout.concat "\t\t</div>\n"
+_erbout.concat "\n"
+_erbout.concat "\t\t";  unless post.image.url == "/images/original/missing.png" ; _erbout.concat "\n"
+_erbout.concat "\t\t\t<p style=\"text-align: center;\">\n"
+_erbout.concat "\t\t\t\t<span class=\"shadowed-image\">"; _erbout.concat(( image_tag post.image.url(:regular)  ).to_s); _erbout.concat "</span>\n"
+_erbout.concat "\t\t\t</p>\n"
+_erbout.concat "\t\t";  end ; _erbout.concat "\n"
+_erbout.concat "\n"
+_erbout.concat "\t    <p>"; _erbout.concat((h post.content ).to_s); _erbout.concat "</p>\n"
+_erbout.concat "\t\t";  if params[:admin] && params[:admin] == "heckyes" ; _erbout.concat "\n"
+_erbout.concat "\t    \t<p class=\"actions\">"; _erbout.concat(( link_to 'Show', post ).to_s); _erbout.concat " | "; _erbout.concat(( link_to 'Edit', edit_post_path(post) ).to_s); _erbout.concat " | "; _erbout.concat(( link_to 'Delete', post, :confirm => 'Are you sure?', :method => :remove_post ).to_s); _erbout.concat "</p>\n"
+_erbout.concat "\t\t";  end ; _erbout.concat "\n"
+_erbout.concat "\t</div>\n"
+_erbout.concat "\t";  end ; _erbout.concat "\n"
+_erbout.concat "\n"
+_erbout.concat "  "; _erbout.concat(( will_paginate @posts ).to_s); _erbout.concat "\n"
+_erbout.concat "\n"
+_erbout.concat "</div>"; _erbout
+end
+Backtrace: /Users/cscotta/Documents/Phoreo/Foundry/wedidit/app/views/posts/index.html.erb:43:in `compile_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:55:in `prepare!'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:34:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:22:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:245:in `render_file'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1108:in `render_for_file'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:865:in `render_with_no_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:880:in `render_with_no_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/layout.rb:251:in `render_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:131:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:131:in `custom'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:160:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:160:in `respond'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:154:in `each'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:154:in `respond'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:107:in `respond_to'
+/Users/cscotta/Documents/Phoreo/Foundry/wedidit/app/controllers/posts_controller.rb:8:in `index'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `perform_action_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+/Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+/Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
+script/server:3
+
+
+ActionView::TemplateError (compile error
+/Users/cscotta/Documents/Phoreo/Foundry/wedidit/app/views/posts/index.html.erb:2: syntax error, unexpected ')', expecting kTHEN or ':' or '\n' or ';'
+_erbout.concat "\t"; _erbout.concat(( if params[:page].blank? ).to_s); _erbout.concat "\n"
+                                                               ^
+/Users/cscotta/Documents/Phoreo/Foundry/wedidit/app/views/posts/index.html.erb:43: syntax error, unexpected kEND, expecting $end) on line #2 of posts/index.html.erb:
+1: <div class="inner">
+2: 	<%= if params[:page].blank? %>
+3: 		<h3>Congratulations, everyone - we did it.</h3>
+4: 		<p>&nbsp;</p>
+5: 		<p>Following the disappointment of the 2000 and 2004 elections, it seems we've learned from our mistakes.
+
+    app/views/posts/index.html.erb:43:in `compile_template'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:55:in `prepare!'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:34:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:22:in `render_template'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:245:in `render_file'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1108:in `render_for_file'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:865:in `render_with_no_layout'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:880:in `render_with_no_layout'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/layout.rb:251:in `render_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:131:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:131:in `custom'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:160:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:160:in `respond'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:154:in `each'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:154:in `respond'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:107:in `respond_to'
+    app/controllers/posts_controller.rb:8:in `index'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `perform_action_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/rails.rb:76:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/rails.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/rails.rb:74:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:42:14) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;36;1mPost Load (0.000548)[0m   [0;1mSELECT * FROM `posts` ORDER BY created_at DESC LIMIT 0, 10[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;35;1mPost Columns (0.003475)[0m   [0mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00015)
+Rendered layouts/_footer (0.00002)
+Completed in 0.02886 (34 reqs/sec) | Rendering: 0.01951 (67%) | DB: 0.00402 (13%) | 200 OK [http://localhost/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:42:17) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;36;1mPost Load (0.002164)[0m   [0;1mSELECT * FROM `posts` ORDER BY created_at DESC LIMIT 0, 10[0m
+Rendering template within layouts/application
+Rendering posts/index
+ERROR: compiling _run_erb_47app47views47posts47index46html46erb RAISED compile error
+/Users/cscotta/Documents/Phoreo/Foundry/wedidit/app/views/posts/index.html.erb:2: syntax error, unexpected ')', expecting kTHEN or ':' or '\n' or ';'
+_erbout.concat "\t"; _erbout.concat(( if params[:page].blank? ).to_s); _erbout.concat "\n"
+                                                               ^
+/Users/cscotta/Documents/Phoreo/Foundry/wedidit/app/views/posts/index.html.erb:43: syntax error, unexpected kEND, expecting $end
+Function body: def _run_erb_47app47views47posts47index46html46erb(local_assigns)
+_erbout = ''; _erbout.concat "<div class=\"inner\">\n"
+_erbout.concat "\t"; _erbout.concat(( if params[:page].blank? ).to_s); _erbout.concat "\n"
+_erbout.concat "\t\t<h3>Congratulations, everyone - we did it.</h3>\n"
+_erbout.concat "\t\t<p>&nbsp;</p>\n"
+_erbout.concat "\t\t<p>Following the disappointment of the 2000 and 2004 elections, it seems we've learned from our mistakes.\n"
+_erbout.concat "\t\t\tWe think that's a victory worth celebrating.\n"
+_erbout.concat "\t\t</p>\n"
+_erbout.concat "\t\t<p>&nbsp;</p>\n"
+_erbout.concat "\t\t<h3><a href=\"/submit/\">Show us your sign!</a></h3>\n"
+_erbout.concat "\t\t<p>&nbsp;</p>\n"
+_erbout.concat "\t";  end ; _erbout.concat "\n"
+_erbout.concat "\t\n"
+_erbout.concat "\t";  for post in @posts ; _erbout.concat "\n"
+_erbout.concat "\t<div class=\"post\">\n"
+_erbout.concat "\t    <div class=\"date\">\n"
+_erbout.concat "\t\t\t<div class=\"date-inner\">\n"
+_erbout.concat "\t\t\t\t"; _erbout.concat((h post.created_at.strftime("%b") ).to_s); _erbout.concat "\n"
+_erbout.concat "\t\t\t\t<span class=\"datenum\">"; _erbout.concat((h post.created_at.strftime("%d") ).to_s); _erbout.concat "</span>\n"
+_erbout.concat "\t\t\t</div>\n"
+_erbout.concat "\t\t</div>\n"
+_erbout.concat "\n"
+_erbout.concat "\t\t<div class=\"post-meta\">\n"
+_erbout.concat "\t\t\t<h2 class=\"name\">"; _erbout.concat(( link_to post.name, :controller => 'posts', :action => 'show', :id => post ).to_s); _erbout.concat "</h2>\n"
+_erbout.concat "\t\t    <p>"; _erbout.concat((h post.name ).to_s); _erbout.concat " in "; _erbout.concat((h post.city ).to_s); _erbout.concat ", "; _erbout.concat((h post.state ).to_s); _erbout.concat " ("; _erbout.concat((h post.country ).to_s); _erbout.concat ")</p>\t\t\t\n"
+_erbout.concat "\t\t</div>\n"
+_erbout.concat "\n"
+_erbout.concat "\t\t";  unless post.image.url == "/images/original/missing.png" ; _erbout.concat "\n"
+_erbout.concat "\t\t\t<p style=\"text-align: center;\">\n"
+_erbout.concat "\t\t\t\t<span class=\"shadowed-image\">"; _erbout.concat(( image_tag post.image.url(:regular)  ).to_s); _erbout.concat "</span>\n"
+_erbout.concat "\t\t\t</p>\n"
+_erbout.concat "\t\t";  end ; _erbout.concat "\n"
+_erbout.concat "\n"
+_erbout.concat "\t    <p>"; _erbout.concat((h post.content ).to_s); _erbout.concat "</p>\n"
+_erbout.concat "\t\t";  if params[:admin] && params[:admin] == "heckyes" ; _erbout.concat "\n"
+_erbout.concat "\t    \t<p class=\"actions\">"; _erbout.concat(( link_to 'Show', post ).to_s); _erbout.concat " | "; _erbout.concat(( link_to 'Edit', edit_post_path(post) ).to_s); _erbout.concat " | "; _erbout.concat(( link_to 'Delete', post, :confirm => 'Are you sure?', :method => :remove_post ).to_s); _erbout.concat "</p>\n"
+_erbout.concat "\t\t";  end ; _erbout.concat "\n"
+_erbout.concat "\t</div>\n"
+_erbout.concat "\t";  end ; _erbout.concat "\n"
+_erbout.concat "\n"
+_erbout.concat "  "; _erbout.concat(( will_paginate @posts ).to_s); _erbout.concat "\n"
+_erbout.concat "\n"
+_erbout.concat "</div>"; _erbout
+end
+Backtrace: /Users/cscotta/Documents/Phoreo/Foundry/wedidit/app/views/posts/index.html.erb:43:in `compile_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:55:in `prepare!'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:34:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:22:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:245:in `render_file'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1108:in `render_for_file'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:865:in `render_with_no_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:880:in `render_with_no_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/layout.rb:251:in `render_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:131:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:131:in `custom'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:160:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:160:in `respond'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:154:in `each'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:154:in `respond'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:107:in `respond_to'
+/Users/cscotta/Documents/Phoreo/Foundry/wedidit/app/controllers/posts_controller.rb:8:in `index'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `perform_action_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+/Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+/Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+/Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
+script/server:3
+
+
+ActionView::TemplateError (compile error
+/Users/cscotta/Documents/Phoreo/Foundry/wedidit/app/views/posts/index.html.erb:2: syntax error, unexpected ')', expecting kTHEN or ':' or '\n' or ';'
+_erbout.concat "\t"; _erbout.concat(( if params[:page].blank? ).to_s); _erbout.concat "\n"
+                                                               ^
+/Users/cscotta/Documents/Phoreo/Foundry/wedidit/app/views/posts/index.html.erb:43: syntax error, unexpected kEND, expecting $end) on line #2 of posts/index.html.erb:
+1: <div class="inner">
+2: 	<%= if params[:page].blank? %>
+3: 		<h3>Congratulations, everyone - we did it.</h3>
+4: 		<p>&nbsp;</p>
+5: 		<p>Following the disappointment of the 2000 and 2004 elections, it seems we've learned from our mistakes.
+
+    app/views/posts/index.html.erb:43:in `compile_template'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:55:in `prepare!'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:34:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:22:in `render_template'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:245:in `render_file'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1108:in `render_for_file'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:865:in `render_with_no_layout'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:880:in `render_with_no_layout'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/layout.rb:251:in `render_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:131:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:131:in `custom'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:160:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:160:in `respond'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:154:in `each'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:154:in `respond'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:107:in `respond_to'
+    app/controllers/posts_controller.rb:8:in `index'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `perform_action_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/rails.rb:76:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/rails.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/rails.rb:74:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:42:22) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000436)[0m   [0mSELECT * FROM `posts` ORDER BY created_at DESC LIMIT 0, 10[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mPost Columns (0.001603)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00016)
+Rendered layouts/_footer (0.00002)
+Completed in 0.02975 (33 reqs/sec) | Rendering: 0.02190 (73%) | DB: 0.00204 (6%) | 200 OK [http://localhost/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:42:26) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"index", "controller"=>"posts", "page"=>"1"}
+  [4;35;1mPost Load (0.000437)[0m   [0mSELECT * FROM `posts` ORDER BY created_at DESC LIMIT 0, 10[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mPost Columns (0.003043)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00015)
+Rendered layouts/_footer (0.00002)
+Completed in 0.02933 (34 reqs/sec) | Rendering: 0.02080 (70%) | DB: 0.00348 (11%) | 200 OK [http://localhost/?page=1]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:42:28) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mPost Load (0.003797)[0m   [0mSELECT * FROM `posts` ORDER BY created_at DESC LIMIT 0, 10[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mPost Columns (0.001787)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00015)
+Rendered layouts/_footer (0.00002)
+Completed in 0.09455 (10 reqs/sec) | Rendering: 0.08399 (88%) | DB: 0.00558 (5%) | 200 OK [http://localhost/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:42:58) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000438)[0m   [0mSELECT * FROM `posts` ORDER BY created_at DESC LIMIT 0, 10[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mPost Columns (0.001469)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00016)
+Rendered layouts/_footer (0.00002)
+Completed in 0.03591 (27 reqs/sec) | Rendering: 0.02597 (72%) | DB: 0.00191 (5%) | 200 OK [http://localhost/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:43:03) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000459)[0m   [0mSELECT * FROM `posts` ORDER BY created_at DESC LIMIT 0, 10[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mPost Columns (0.003238)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00015)
+Rendered layouts/_footer (0.00002)
+Completed in 0.02813 (35 reqs/sec) | Rendering: 0.01913 (68%) | DB: 0.00370 (13%) | 200 OK [http://localhost/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:43:11) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000454)[0m   [0mSELECT * FROM `posts` ORDER BY created_at DESC LIMIT 0, 10[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mPost Columns (0.002357)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00015)
+Rendered layouts/_footer (0.00002)
+Completed in 0.03002 (33 reqs/sec) | Rendering: 0.02112 (70%) | DB: 0.00281 (9%) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2008-11-05 03:43:14) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/submit/" with {:method=>:get}):
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:43:15) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000449)[0m   [0mSELECT * FROM `posts` ORDER BY created_at DESC LIMIT 0, 10[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mPost Columns (0.002675)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00015)
+Rendered layouts/_footer (0.00002)
+Completed in 0.03149 (31 reqs/sec) | Rendering: 0.02312 (73%) | DB: 0.00312 (9%) | 200 OK [http://localhost/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:43:30) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000588)[0m   [0mSELECT * FROM `posts` ORDER BY created_at DESC LIMIT 0, 10[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mPost Columns (0.001478)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00015)
+Rendered layouts/_footer (0.00002)
+Completed in 0.03225 (31 reqs/sec) | Rendering: 0.02486 (77%) | DB: 0.00207 (6%) | 200 OK [http://localhost/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:43:39) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000512)[0m   [0mSELECT * FROM `posts` ORDER BY created_at DESC LIMIT 0, 10[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mPost Columns (0.001481)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00017)
+Rendered layouts/_footer (0.00002)
+Completed in 0.04044 (24 reqs/sec) | Rendering: 0.03283 (81%) | DB: 0.00199 (4%) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2008-11-05 03:43:47) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/submit/" with {:method=>:get}):
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:43:50) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mPost Load (0.001369)[0m   [0mSELECT * FROM `posts` ORDER BY created_at DESC LIMIT 0, 10[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mPost Columns (0.003721)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00019)
+Rendered layouts/_footer (0.00002)
+Completed in 0.03137 (31 reqs/sec) | Rendering: 0.02041 (65%) | DB: 0.00509 (16%) | 200 OK [http://localhost/]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2008-11-05 03:43:53) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"new", "controller"=>"posts"}
+  [4;35;1mPost Columns (0.001750)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/application
+Rendering posts/new
+Rendered layouts/_header (0.00015)
+Rendered layouts/_footer (0.00002)
+Completed in 0.01428 (70 reqs/sec) | Rendering: 0.00731 (51%) | DB: 0.00175 (12%) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2008-11-05 03:44:12) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"new", "controller"=>"posts"}
+  [4;36;1mPost Columns (0.001737)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/application
+Rendering posts/new
+Rendered layouts/_header (0.00017)
+Rendered layouts/_footer (0.00002)
+Completed in 0.01665 (60 reqs/sec) | Rendering: 0.00793 (47%) | DB: 0.00174 (10%) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2008-11-05 03:44:24) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"new", "controller"=>"posts"}
+  [4;35;1mPost Columns (0.171005)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/application
+Rendering posts/new
+Rendered layouts/_header (0.00015)
+Rendered layouts/_footer (0.00002)
+Completed in 0.18389 (5 reqs/sec) | Rendering: 0.00754 (4%) | DB: 0.17101 (92%) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2008-11-05 03:45:06) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"new", "controller"=>"posts"}
+  [4;36;1mPost Columns (0.002691)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/application
+Rendering posts/new
+Rendered layouts/_header (0.00015)
+Rendered layouts/_footer (0.00002)
+Completed in 0.01494 (66 reqs/sec) | Rendering: 0.00678 (45%) | DB: 0.00269 (18%) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2008-11-05 03:45:09) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"new", "controller"=>"posts"}
+  [4;35;1mPost Columns (0.003136)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/application
+Rendering posts/new
+Rendered layouts/_header (0.00015)
+Rendered layouts/_footer (0.00002)
+Completed in 0.08437 (11 reqs/sec) | Rendering: 0.00592 (7%) | DB: 0.00314 (3%) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2008-11-05 03:45:21) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"new", "controller"=>"posts"}
+  [4;36;1mPost Columns (0.001700)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/application
+Rendering posts/new
+Rendered layouts/_header (0.00015)
+Rendered layouts/_footer (0.00002)
+Completed in 0.01536 (65 reqs/sec) | Rendering: 0.00800 (52%) | DB: 0.00170 (11%) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2008-11-05 03:45:38) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"new", "controller"=>"posts"}
+  [4;35;1mPost Columns (0.003570)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/application
+Rendering posts/new
+
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #4 of posts/new.html.erb:
+1: <div class="inner">
+2: 	<h1>Share your Sign</h1>
+3: 	<div>&nbsdiv;</div>
+4: 	<% form_for(@divost, :html => { :multidivart => true }) do |f| %>
+5: 	  <%= f.error_messages %>
+6: 
+7: 	  <div>
+
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/record_identifier.rb:72:in `dom_id'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/helpers/record_identification_helper.rb:16:in `dom_id'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/helpers/form_helper.rb:264:in `apply_form_for_options!'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/helpers/form_helper.rb:248:in `form_for'
+    app/views/posts/new.html.erb:4:in `_run_erb_47app47views47posts47new46html46erb'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:338:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:338:in `execute'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/template_handlers/compilable.rb:29:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/template_handlers/compilable.rb:29:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:35:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:22:in `render_template'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:245:in `render_file'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1108:in `render_for_file'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:865:in `render_with_no_layout'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:880:in `render_with_no_layout'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/layout.rb:251:in `render_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:131:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:131:in `custom'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:160:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:160:in `respond'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:154:in `each'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:154:in `respond'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:107:in `respond_to'
+    app/controllers/posts_controller.rb:40:in `new'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `perform_action_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/rails.rb:76:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/rails.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/rails.rb:74:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing PostsController#new (for 127.0.0.1 at 2008-11-05 03:45:55) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"new", "controller"=>"posts"}
+  [4;36;1mPost Columns (0.002249)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/application
+Rendering posts/new
+Rendered layouts/_header (0.00016)
+Rendered layouts/_footer (0.00002)
+Completed in 0.01690 (59 reqs/sec) | Rendering: 0.00910 (53%) | DB: 0.00225 (13%) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2008-11-05 03:46:20) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"new", "controller"=>"posts"}
+  [4;35;1mPost Columns (0.004811)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/application
+Rendering posts/new
+Rendered layouts/_header (0.00016)
+Rendered layouts/_footer (0.00002)
+Completed in 0.01898 (52 reqs/sec) | Rendering: 0.00839 (44%) | DB: 0.00481 (25%) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2008-11-05 03:46:38) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"new", "controller"=>"posts"}
+  [4;36;1mPost Columns (0.005698)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/application
+Rendering posts/new
+Rendered layouts/_header (0.00018)
+Rendered layouts/_footer (0.00002)
+Completed in 0.01860 (53 reqs/sec) | Rendering: 0.00708 (38%) | DB: 0.00570 (30%) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2008-11-05 03:46:54) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"new", "controller"=>"posts"}
+  [4;35;1mPost Columns (0.002810)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/application
+Rendering posts/new
+Rendered layouts/_header (0.00016)
+Rendered layouts/_footer (0.00002)
+Completed in 0.01879 (53 reqs/sec) | Rendering: 0.01027 (54%) | DB: 0.00281 (14%) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2008-11-05 03:47:06) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"new", "controller"=>"posts"}
+  [4;36;1mPost Columns (0.002737)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/application
+Rendering posts/new
+Rendered layouts/_header (0.00016)
+Rendered layouts/_footer (0.00002)
+Completed in 0.01653 (60 reqs/sec) | Rendering: 0.00870 (52%) | DB: 0.00274 (16%) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2008-11-05 03:47:24) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"new", "controller"=>"posts"}
+  [4;35;1mPost Columns (0.001790)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/application
+Rendering posts/new
+Rendered layouts/_header (0.00017)
+Rendered layouts/_footer (0.00002)
+Completed in 0.01656 (60 reqs/sec) | Rendering: 0.00825 (49%) | DB: 0.00179 (10%) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2008-11-05 03:47:50) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"new", "controller"=>"posts"}
+  [4;36;1mPost Columns (0.001904)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/application
+Rendering posts/new
+Rendered layouts/_header (0.00016)
+Rendered layouts/_footer (0.00002)
+Completed in 0.02103 (47 reqs/sec) | Rendering: 0.01285 (61%) | DB: 0.00190 (9%) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2008-11-05 03:47:56) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"new", "controller"=>"posts"}
+  [4;35;1mPost Columns (0.001790)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/application
+Rendering posts/new
+Rendered layouts/_header (0.00020)
+Rendered layouts/_footer (0.00002)
+Completed in 0.02011 (49 reqs/sec) | Rendering: 0.00888 (44%) | DB: 0.00179 (8%) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2008-11-05 03:48:13) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"new", "controller"=>"posts"}
+  [4;36;1mPost Columns (0.001551)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/application
+Rendering posts/new
+Rendered layouts/_header (0.00016)
+Rendered layouts/_footer (0.00002)
+Completed in 0.01399 (71 reqs/sec) | Rendering: 0.00706 (50%) | DB: 0.00155 (11%) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2008-11-05 03:48:30) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"new", "controller"=>"posts"}
+  [4;35;1mPost Columns (0.002385)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/application
+Rendering posts/new
+Rendered layouts/_header (0.00016)
+Rendered layouts/_footer (0.00002)
+Completed in 0.01413 (70 reqs/sec) | Rendering: 0.00655 (46%) | DB: 0.00238 (16%) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2008-11-05 03:48:35) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"new", "controller"=>"posts"}
+  [4;36;1mPost Columns (0.002076)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/application
+Rendering posts/new
+Rendered layouts/_header (0.00016)
+Rendered layouts/_footer (0.00002)
+Completed in 0.07901 (12 reqs/sec) | Rendering: 0.07176 (90%) | DB: 0.00208 (2%) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2008-11-05 03:48:42) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"new", "controller"=>"posts"}
+  [4;35;1mPost Columns (0.003325)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/application
+Rendering posts/new
+Rendered layouts/_header (0.00017)
+Rendered layouts/_footer (0.00002)
+Completed in 0.01616 (61 reqs/sec) | Rendering: 0.00727 (44%) | DB: 0.00332 (20%) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2008-11-05 03:48:48) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"new", "controller"=>"posts"}
+  [4;36;1mPost Columns (0.003435)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/application
+Rendering posts/new
+Rendered layouts/_header (0.00015)
+Rendered layouts/_footer (0.00002)
+Completed in 0.01769 (56 reqs/sec) | Rendering: 0.00638 (36%) | DB: 0.00343 (19%) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2008-11-05 03:48:52) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"new", "controller"=>"posts"}
+  [4;35;1mPost Columns (0.049346)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/application
+Rendering posts/new
+Rendered layouts/_header (0.00019)
+Rendered layouts/_footer (0.00002)
+Completed in 0.06535 (15 reqs/sec) | Rendering: 0.00716 (10%) | DB: 0.04935 (75%) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2008-11-05 03:49:01) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"new", "controller"=>"posts"}
+  [4;36;1mPost Columns (0.002704)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/application
+Rendering posts/new
+Rendered layouts/_header (0.00015)
+Rendered layouts/_footer (0.00002)
+Completed in 0.01398 (71 reqs/sec) | Rendering: 0.00618 (44%) | DB: 0.00270 (19%) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2008-11-05 03:49:06) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"new", "controller"=>"posts"}
+  [4;35;1mPost Columns (0.001594)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/application
+Rendering posts/new
+Rendered layouts/_header (0.00017)
+Rendered layouts/_footer (0.00002)
+Completed in 0.01364 (73 reqs/sec) | Rendering: 0.00678 (49%) | DB: 0.00159 (11%) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2008-11-05 03:49:36) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"new", "controller"=>"posts"}
+  [4;36;1mPost Columns (0.002446)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/application
+Rendering posts/new
+Rendered layouts/_header (0.00018)
+Rendered layouts/_footer (0.00002)
+Completed in 0.01737 (57 reqs/sec) | Rendering: 0.00910 (52%) | DB: 0.00245 (14%) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2008-11-05 03:49:40) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"new", "controller"=>"posts"}
+  [4;35;1mPost Columns (0.001931)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/application
+Rendering posts/new
+Rendered layouts/_header (0.00016)
+Rendered layouts/_footer (0.00002)
+Completed in 0.01432 (69 reqs/sec) | Rendering: 0.00666 (46%) | DB: 0.00193 (13%) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2008-11-05 03:49:59) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"new", "controller"=>"posts"}
+  [4;36;1mPost Columns (0.002348)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/application
+Rendering posts/new
+Rendered layouts/_header (0.00015)
+Rendered layouts/_footer (0.00002)
+Completed in 0.01735 (57 reqs/sec) | Rendering: 0.00845 (48%) | DB: 0.00235 (13%) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2008-11-05 03:50:36) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"new", "controller"=>"posts"}
+  [4;35;1mPost Columns (0.005523)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/application
+Rendering posts/new
+Rendered layouts/_header (0.00015)
+Rendered layouts/_footer (0.00002)
+Completed in 0.01903 (52 reqs/sec) | Rendering: 0.00819 (43%) | DB: 0.00552 (29%) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2008-11-05 03:50:50) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"new", "controller"=>"posts"}
+  [4;36;1mPost Columns (0.003526)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/application
+Rendering posts/new
+Rendered layouts/_header (0.00015)
+Rendered layouts/_footer (0.00002)
+Completed in 0.01654 (60 reqs/sec) | Rendering: 0.00763 (46%) | DB: 0.00353 (21%) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2008-11-05 03:52:01) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"new", "controller"=>"posts"}
+  [4;35;1mPost Columns (0.001606)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/application
+Rendering posts/new
+Rendered layouts/_header (0.00015)
+Rendered layouts/_footer (0.00002)
+Completed in 0.01509 (66 reqs/sec) | Rendering: 0.00816 (54%) | DB: 0.00161 (10%) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2008-11-05 03:52:15) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"new", "controller"=>"posts"}
+  [4;36;1mPost Columns (0.001915)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/application
+Rendering posts/new
+Rendered layouts/_header (0.00016)
+Rendered layouts/_footer (0.00002)
+Completed in 0.01837 (54 reqs/sec) | Rendering: 0.00839 (45%) | DB: 0.00191 (10%) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2008-11-05 03:52:20) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"new", "controller"=>"posts"}
+  [4;35;1mPost Columns (0.001700)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/application
+Rendering posts/new
+Rendered layouts/_header (0.00018)
+Rendered layouts/_footer (0.00002)
+Completed in 0.01804 (55 reqs/sec) | Rendering: 0.01032 (57%) | DB: 0.00170 (9%) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2008-11-05 03:52:46) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"new", "controller"=>"posts"}
+  [4;36;1mPost Columns (0.002783)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/application
+Rendering posts/new
+Rendered layouts/_header (0.00021)
+Rendered layouts/_footer (0.00002)
+Completed in 0.02657 (37 reqs/sec) | Rendering: 0.01808 (68%) | DB: 0.00278 (10%) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2008-11-05 03:53:21) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"new", "controller"=>"posts"}
+  [4;35;1mPost Columns (0.001815)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/application
+Rendering posts/new
+Rendered layouts/_header (0.00022)
+Rendered layouts/_footer (0.00002)
+Completed in 0.01934 (51 reqs/sec) | Rendering: 0.01018 (52%) | DB: 0.00182 (9%) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2008-11-05 03:53:28) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"new", "controller"=>"posts"}
+  [4;36;1mPost Columns (0.002127)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/application
+Rendering posts/new
+Rendered layouts/_header (0.00017)
+Rendered layouts/_footer (0.00002)
+Completed in 0.08136 (12 reqs/sec) | Rendering: 0.07141 (87%) | DB: 0.00213 (2%) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2008-11-05 03:53:38) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"new", "controller"=>"posts"}
+  [4;35;1mPost Columns (0.002212)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/application
+Rendering posts/new
+Rendered layouts/_header (0.00015)
+Rendered layouts/_footer (0.00002)
+Completed in 0.02027 (49 reqs/sec) | Rendering: 0.00839 (41%) | DB: 0.00221 (10%) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2008-11-05 03:53:47) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"new", "controller"=>"posts"}
+  [4;36;1mPost Columns (0.002445)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/application
+Rendering posts/new
+Rendered layouts/_header (0.00017)
+Rendered layouts/_footer (0.00002)
+Completed in 0.01854 (53 reqs/sec) | Rendering: 0.00860 (46%) | DB: 0.00244 (13%) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2008-11-05 03:53:59) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"new", "controller"=>"posts"}
+  [4;35;1mPost Columns (0.001709)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/application
+Rendering posts/new
+Rendered layouts/_header (0.00016)
+Rendered layouts/_footer (0.00002)
+Completed in 0.01583 (63 reqs/sec) | Rendering: 0.00843 (53%) | DB: 0.00171 (10%) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2008-11-05 03:54:05) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"new", "controller"=>"posts"}
+  [4;36;1mPost Columns (0.001914)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/application
+Rendering posts/new
+Rendered layouts/_header (0.00050)
+Rendered layouts/_footer (0.00002)
+Completed in 0.01642 (60 reqs/sec) | Rendering: 0.00874 (53%) | DB: 0.00191 (11%) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2008-11-05 03:54:13) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"new", "controller"=>"posts"}
+  [4;35;1mPost Columns (0.001810)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/application
+Rendering posts/new
+Rendered layouts/_header (0.00041)
+Rendered layouts/_footer (0.00002)
+Completed in 0.01861 (53 reqs/sec) | Rendering: 0.00802 (43%) | DB: 0.00181 (9%) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2008-11-05 03:54:26) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"new", "controller"=>"posts"}
+  [4;36;1mPost Columns (0.001737)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/application
+Rendering posts/new
+Rendered layouts/_header (0.00015)
+Rendered layouts/_footer (0.00002)
+Completed in 0.01616 (61 reqs/sec) | Rendering: 0.00872 (53%) | DB: 0.00174 (10%) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2008-11-05 03:54:44) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"new", "controller"=>"posts"}
+  [4;35;1mPost Columns (0.001602)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/application
+Rendering posts/new
+Rendered layouts/_header (0.00018)
+Rendered layouts/_footer (0.00002)
+Completed in 0.01880 (53 reqs/sec) | Rendering: 0.01040 (55%) | DB: 0.00160 (8%) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2008-11-05 03:54:52) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"new", "controller"=>"posts"}
+  [4;36;1mPost Columns (0.001680)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/application
+Rendering posts/new
+Rendered layouts/_header (0.00016)
+Rendered layouts/_footer (0.00002)
+Completed in 0.01508 (66 reqs/sec) | Rendering: 0.00801 (53%) | DB: 0.00168 (11%) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2008-11-05 03:55:56) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"new", "controller"=>"posts"}
+  [4;35;1mPost Columns (0.001629)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/application
+Rendering posts/new
+Rendered layouts/_header (0.00243)
+Rendered layouts/_footer (0.00002)
+Completed in 0.02071 (48 reqs/sec) | Rendering: 0.01395 (67%) | DB: 0.00163 (7%) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2008-11-05 03:57:07) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"new", "controller"=>"posts"}
+  [4;36;1mPost Columns (0.001839)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/application
+Rendering posts/new
+Rendered layouts/_header (0.00016)
+Rendered layouts/_footer (0.00002)
+Completed in 0.01839 (54 reqs/sec) | Rendering: 0.01104 (60%) | DB: 0.00184 (9%) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2008-11-05 03:57:49) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"new", "controller"=>"posts"}
+  [4;35;1mPost Columns (0.007655)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/application
+Rendering posts/new
+Rendered layouts/_header (0.00015)
+Rendered layouts/_footer (0.00007)
+Completed in 0.02319 (43 reqs/sec) | Rendering: 0.01007 (43%) | DB: 0.00765 (33%) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2008-11-05 03:58:01) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"new", "controller"=>"posts"}
+  [4;36;1mPost Columns (0.001950)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/application
+Rendering posts/new
+Rendered layouts/_header (0.00015)
+Rendered layouts/_footer (0.00002)
+Completed in 0.01498 (66 reqs/sec) | Rendering: 0.00642 (42%) | DB: 0.00195 (13%) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:58:32) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000456)[0m   [0mSELECT * FROM `posts` ORDER BY created_at DESC LIMIT 0, 10[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mPost Columns (0.002523)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00016)
+Rendered layouts/_footer (0.00002)
+Completed in 0.02766 (36 reqs/sec) | Rendering: 0.01942 (70%) | DB: 0.00298 (10%) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2008-11-05 03:58:33) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/submit/" with {:method=>:get}):
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:58:34) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000621)[0m   [0mSELECT * FROM `posts` ORDER BY created_at DESC LIMIT 0, 10[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mPost Columns (0.001458)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00015)
+Rendered layouts/_footer (0.00002)
+Completed in 0.02672 (37 reqs/sec) | Rendering: 0.01924 (71%) | DB: 0.00208 (7%) | 200 OK [http://localhost/]
+
+
+Processing PostsController#gallery (for 127.0.0.1 at 2008-11-05 03:58:39) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"gallery", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000478)[0m   [0mSELECT * FROM `posts` ORDER BY created_at DESC LIMIT 0, 36[0m
+Rendering template within layouts/application
+Rendering posts/gallery
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+  [4;36;1mPost Columns (0.005599)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00017)
+Rendered layouts/_footer (0.00002)
+Completed in 0.03348 (29 reqs/sec) | Rendering: 0.02087 (62%) | DB: 0.00608 (18%) | 200 OK [http://localhost/gallery/]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2008-11-05 03:58:41) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"show", "id"=>"11", "controller"=>"posts"}
+  [4;35;1mPost Columns (0.001578)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mPost Load (0.001874)[0m   [0;1mSELECT * FROM `posts` WHERE (`posts`.`id` = 11) [0m
+Rendering template within layouts/application
+Rendering posts/show
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00015)
+Rendered layouts/_footer (0.00002)
+Completed in 0.01657 (60 reqs/sec) | Rendering: 0.00753 (45%) | DB: 0.00345 (20%) | 200 OK [http://localhost/posts/11]
+
+
+Processing PostsController#gallery (for 127.0.0.1 at 2008-11-05 03:58:42) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"gallery", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000539)[0m   [0mSELECT * FROM `posts` ORDER BY created_at DESC LIMIT 0, 36[0m
+Rendering template within layouts/application
+Rendering posts/gallery
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+  [4;36;1mPost Columns (0.002449)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00015)
+Rendered layouts/_footer (0.00002)
+Completed in 0.02453 (40 reqs/sec) | Rendering: 0.01630 (66%) | DB: 0.00299 (12%) | 200 OK [http://localhost/gallery/]
+
+
+Processing PostsController#gallery (for 127.0.0.1 at 2008-11-05 03:58:51) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"gallery", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000422)[0m   [0mSELECT * FROM `posts` ORDER BY created_at DESC LIMIT 0, 36[0m
+Rendering template within layouts/application
+Rendering posts/gallery
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+  [4;36;1mPost Columns (0.004352)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00022)
+Rendered layouts/_footer (0.00002)
+Completed in 0.03205 (31 reqs/sec) | Rendering: 0.02125 (66%) | DB: 0.00477 (14%) | 200 OK [http://localhost/gallery/]
+
+
+Processing PostsController#gallery (for 127.0.0.1 at 2008-11-05 03:59:00) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"gallery", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000577)[0m   [0mSELECT * FROM `posts` ORDER BY created_at DESC LIMIT 0, 36[0m
+Rendering template within layouts/application
+Rendering posts/gallery
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+  [4;36;1mPost Columns (0.001568)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00015)
+Rendered layouts/_footer (0.00002)
+Completed in 0.09238 (10 reqs/sec) | Rendering: 0.08489 (91%) | DB: 0.00215 (2%) | 200 OK [http://localhost/gallery/]
+
+
+Processing PostsController#gallery (for 127.0.0.1 at 2008-11-05 03:59:08) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"gallery", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000684)[0m   [0mSELECT * FROM `posts` ORDER BY created_at DESC LIMIT 0, 36[0m
+Rendering template within layouts/application
+Rendering posts/gallery
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+  [4;36;1mPost Columns (0.001642)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00016)
+Rendered layouts/_footer (0.00002)
+Completed in 0.03107 (32 reqs/sec) | Rendering: 0.02316 (74%) | DB: 0.00233 (7%) | 200 OK [http://localhost/gallery/]
+
+
+Processing PostsController#gallery (for 127.0.0.1 at 2008-11-05 03:59:10) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"gallery", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000429)[0m   [0mSELECT * FROM `posts` ORDER BY created_at DESC LIMIT 0, 36[0m
+Rendering template within layouts/application
+Rendering posts/gallery
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+  [4;36;1mPost Columns (0.003020)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00015)
+Rendered layouts/_footer (0.00002)
+Completed in 0.02607 (38 reqs/sec) | Rendering: 0.01623 (62%) | DB: 0.00345 (13%) | 200 OK [http://localhost/gallery/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:59:13) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000405)[0m   [0mSELECT * FROM `posts` ORDER BY created_at DESC LIMIT 0, 10[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mPost Columns (0.001662)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00018)
+Rendered layouts/_footer (0.00002)
+Completed in 0.02647 (37 reqs/sec) | Rendering: 0.01955 (73%) | DB: 0.00207 (7%) | 200 OK [http://localhost/]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2008-11-05 03:59:13) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"new", "controller"=>"posts"}
+  [4;35;1mPost Columns (0.001661)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/application
+Rendering posts/new
+Rendered layouts/_header (0.00020)
+Rendered layouts/_footer (0.00002)
+Completed in 0.07797 (12 reqs/sec) | Rendering: 0.07056 (90%) | DB: 0.00166 (2%) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:59:14) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;36;1mPost Load (0.000421)[0m   [0;1mSELECT * FROM `posts` ORDER BY created_at DESC LIMIT 0, 10[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;35;1mPost Columns (0.002916)[0m   [0mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00015)
+Rendered layouts/_footer (0.00002)
+Completed in 0.03170 (31 reqs/sec) | Rendering: 0.02247 (70%) | DB: 0.00334 (10%) | 200 OK [http://localhost/]
+
+
+Processing PostsController#gallery (for 127.0.0.1 at 2008-11-05 03:59:14) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"gallery", "controller"=>"posts"}
+  [4;36;1mPost Load (0.000548)[0m   [0;1mSELECT * FROM `posts` ORDER BY created_at DESC LIMIT 0, 36[0m
+Rendering template within layouts/application
+Rendering posts/gallery
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+  [4;35;1mPost Columns (0.001667)[0m   [0mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00015)
+Rendered layouts/_footer (0.00002)
+Completed in 0.02429 (41 reqs/sec) | Rendering: 0.01638 (67%) | DB: 0.00221 (9%) | 200 OK [http://localhost/gallery/]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2008-11-05 03:59:15) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"show", "id"=>"11", "controller"=>"posts"}
+  [4;36;1mPost Columns (0.002370)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.000551)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 11) [0m
+Rendering template within layouts/application
+Rendering posts/show
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00015)
+Rendered layouts/_footer (0.00002)
+Completed in 0.01537 (65 reqs/sec) | Rendering: 0.00604 (39%) | DB: 0.00292 (19%) | 200 OK [http://localhost/posts/11]
+
+
+Processing PostsController#gallery (for 127.0.0.1 at 2008-11-05 03:59:22) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"gallery", "controller"=>"posts"}
+  [4;36;1mPost Load (0.001076)[0m   [0;1mSELECT * FROM `posts` ORDER BY created_at DESC LIMIT 0, 36[0m
+Rendering template within layouts/application
+Rendering posts/gallery
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+  [4;35;1mPost Columns (0.002338)[0m   [0mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00015)
+Rendered layouts/_footer (0.00002)
+Completed in 0.02683 (37 reqs/sec) | Rendering: 0.01846 (68%) | DB: 0.00341 (12%) | 200 OK [http://localhost/gallery/]
+
+
+Processing PostsController#gallery (for 127.0.0.1 at 2008-11-05 03:59:23) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"gallery", "controller"=>"posts"}
+  [4;36;1mPost Load (0.000582)[0m   [0;1mSELECT * FROM `posts` ORDER BY created_at DESC LIMIT 0, 36[0m
+Rendering template within layouts/application
+Rendering posts/gallery
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+  [4;35;1mPost Columns (0.001556)[0m   [0mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00015)
+Rendered layouts/_footer (0.00002)
+Completed in 0.09722 (10 reqs/sec) | Rendering: 0.01805 (18%) | DB: 0.00214 (2%) | 200 OK [http://localhost/gallery/]
+
+
+Processing PostsController#gallery (for 127.0.0.1 at 2008-11-05 03:59:29) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"gallery", "controller"=>"posts"}
+  [4;36;1mPost Load (0.000565)[0m   [0;1mSELECT * FROM `posts` ORDER BY created_at DESC LIMIT 0, 36[0m
+Rendering template within layouts/application
+Rendering posts/gallery
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+  [4;35;1mPost Columns (0.002069)[0m   [0mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00015)
+Rendered layouts/_footer (0.00002)
+Completed in 0.02682 (37 reqs/sec) | Rendering: 0.01877 (69%) | DB: 0.00263 (9%) | 200 OK [http://localhost/gallery/]
+
+
+Processing PostsController#gallery (for 127.0.0.1 at 2008-11-05 03:59:41) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"gallery", "controller"=>"posts"}
+  [4;36;1mPost Load (0.000741)[0m   [0;1mSELECT * FROM `posts` ORDER BY created_at DESC LIMIT 0, 36[0m
+Rendering template within layouts/application
+Rendering posts/gallery
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+  [4;35;1mPost Columns (0.092630)[0m   [0mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00041)
+Rendered layouts/_footer (0.00002)
+Completed in 0.11810 (8 reqs/sec) | Rendering: 0.01925 (16%) | DB: 0.09337 (79%) | 200 OK [http://localhost/gallery/]
+
+
+Processing PostsController#gallery (for 127.0.0.1 at 2008-11-05 03:59:48) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"gallery", "controller"=>"posts"}
+  [4;36;1mPost Load (0.000478)[0m   [0;1mSELECT * FROM `posts` ORDER BY created_at DESC LIMIT 0, 36[0m
+Rendering template within layouts/application
+Rendering posts/gallery
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+  [4;35;1mPost Columns (0.002685)[0m   [0mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00019)
+Rendered layouts/_footer (0.00002)
+Completed in 0.02565 (38 reqs/sec) | Rendering: 0.01680 (65%) | DB: 0.00316 (12%) | 200 OK [http://localhost/gallery/]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2008-11-05 03:59:56) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"contact", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_header (0.00017)
+Rendered layouts/_footer (0.00002)
+Completed in 0.00282 (354 reqs/sec) | Rendering: 0.00115 (40%) | DB: 0.00000 (0%) | 200 OK [http://localhost/contact/]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2008-11-05 03:59:58) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"contact", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_header (0.00033)
+Rendered layouts/_footer (0.00002)
+Completed in 0.00308 (324 reqs/sec) | Rendering: 0.00140 (45%) | DB: 0.00000 (0%) | 200 OK [http://localhost/contact/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2008-11-05 03:59:59) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/submit/" with {:method=>:get}):
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2008-11-05 03:59:59) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"contact", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_header (0.00017)
+Rendered layouts/_footer (0.00002)
+Completed in 0.00302 (330 reqs/sec) | Rendering: 0.00116 (38%) | DB: 0.00000 (0%) | 200 OK [http://localhost/contact/]
+
+
+Processing PagesController#faq (for 127.0.0.1 at 2008-11-05 04:00:00) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"faq", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/faq
+Rendered layouts/_header (0.00018)
+Rendered layouts/_footer (0.00002)
+Completed in 0.00283 (352 reqs/sec) | Rendering: 0.00117 (41%) | DB: 0.00000 (0%) | 200 OK [http://localhost/faq/]
+
+
+Processing PostsController#gallery (for 127.0.0.1 at 2008-11-05 04:00:01) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"gallery", "controller"=>"posts"}
+  [4;36;1mPost Load (0.000437)[0m   [0;1mSELECT * FROM `posts` ORDER BY created_at DESC LIMIT 0, 36[0m
+Rendering template within layouts/application
+Rendering posts/gallery
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+  [4;35;1mPost Columns (0.001631)[0m   [0mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00015)
+Rendered layouts/_footer (0.00002)
+Completed in 0.02852 (35 reqs/sec) | Rendering: 0.02045 (71%) | DB: 0.00207 (7%) | 200 OK [http://localhost/gallery/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 04:00:03) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;36;1mPost Load (0.000435)[0m   [0;1mSELECT * FROM `posts` ORDER BY created_at DESC LIMIT 0, 10[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;35;1mPost Columns (0.001482)[0m   [0mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00019)
+Rendered layouts/_footer (0.00002)
+Completed in 0.02904 (34 reqs/sec) | Rendering: 0.02193 (75%) | DB: 0.00192 (6%) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2008-11-05 04:00:09) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/submit/" with {:method=>:get}):
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 04:00:09) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;36;1mPost Load (0.000539)[0m   [0;1mSELECT * FROM `posts` ORDER BY created_at DESC LIMIT 0, 10[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;35;1mPost Columns (0.001609)[0m   [0mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00016)
+Rendered layouts/_footer (0.00002)
+Completed in 0.02787 (35 reqs/sec) | Rendering: 0.02026 (72%) | DB: 0.00215 (7%) | 200 OK [http://localhost/]
