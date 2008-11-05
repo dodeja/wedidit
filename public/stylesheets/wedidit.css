@@ -91,6 +91,13 @@ a:hover { color: #fff !important; background-color:#357faf; }
 	display: inline-block;
 }
 
+.shadowed-image-container {
+	float: left;
+	clear: both;
+	position: relative;
+	left: 30px;
+}
+
 .shadowed-image img { 
 	position: relative;
 	z-index: 10;
@@ -267,14 +274,16 @@ h1.title a:hover { color: #0190d2 !important; }
 	font-size: 0.8em;
 }
 
-#menu { padding-bottom: 20px; }
+#menu { 
+	margin: 0 -10px 0 -10px !important;
+	padding-bottom: 20px;
+	overflow: hidden; 
+}
 
 #menu ul {
-	float: left;
 	padding: 0;	
-	width: 680px; 
-	padding: 0 0;
-	margin: 0 0 0 -10px;
+	width: 600px;
+	margin: 0 -10px 0 -10px !important;
 	background: transparent;
 }
 
@@ -282,7 +291,7 @@ h1.title a:hover { color: #0190d2 !important; }
 	float: left;
 	list-style: none;
 	background: url(/images/menu-bg.png);
-	padding: 10px 20px 10px 21px;
+	padding: 10px 20px 10px 23px;
 	height: 20px;
 	color: #00184d;
 	border-right: 1px solid #bfbfbf;

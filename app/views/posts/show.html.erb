@@ -13,10 +13,11 @@
 		</div>
 
 		<% unless @post.image.url == "/images/original/missing.png" %>
-			<p style="text-align: center;">
-				<span class="shadowed-image"><%= image_tag @post.image.url(:regular)  %></span>
-			</p>
+			<div class="shadowed-image-container">
+				<div class="shadowed-image"><%= image_tag @post.image.url(:regular)  %></div>
+			</div>
 		<% end %>
+		<div class="clear"></div>
 
 	    <p><%=h @post.content %></p>
 
