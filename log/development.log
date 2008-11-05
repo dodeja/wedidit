@@ -25024,3 +25024,27 @@ Rendering posts/index
 Rendered layouts/_header (0.00016)
 Rendered layouts/_footer (0.00002)
 Completed in 0.03088 (32 reqs/sec) | Rendering: 0.02279 (73%) | DB: 0.00307 (9%) | 200 OK [http://localhost/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 02:24:09) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlMWM3MDBiMjNiOTNjZjYzMjZiNmI5OTViMzEzOTgw
+YTciCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--7fc0795d8d7f12914d5862eed843fd45c55aa121
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000804)[0m   [0mSELECT * FROM `posts` ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mPost Columns (0.002506)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00016)
+Rendered layouts/_footer (0.00002)
+Completed in 0.03190 (31 reqs/sec) | Rendering: 0.02310 (72%) | DB: 0.00331 (10%) | 200 OK [http://localhost/]

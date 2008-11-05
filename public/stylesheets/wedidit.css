@@ -302,7 +302,7 @@ h1.title a:hover { color: #0190d2 !important; }
 .post h2.title { clear: both; }
 .post h2.title a:hover { border: none; }
 
-.posts { position: relative; top: 20px; }
+.inner { position: relative; top: 20px; }
 .post { 
 	margin-top: 20px;
 	padding-bottom: 20px;
