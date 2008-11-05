@@ -23,10 +23,10 @@ ActiveRecord::Schema.define(:version => 20081105054940) do
     t.string   "country"
     t.string   "image_file_name"
     t.string   "image_content_type"
-    t.integer  "image_file_size"
+    t.integer  "image_file_size",    :limit => 11
     t.datetime "image_updated_at"
-    t.decimal  "lat",                :precision => 15, :scale => 10
-    t.decimal  "lng",                :precision => 15, :scale => 10
+    t.decimal  "lat",                              :precision => 15, :scale => 10
+    t.decimal  "lng",                              :precision => 15, :scale => 10
   end
 
 end
