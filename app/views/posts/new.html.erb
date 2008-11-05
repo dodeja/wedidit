@@ -32,15 +32,15 @@
 	  <p>&nbsp;</p>
 
 	  <div class="field">
-	    <span class="red">*</span> <%= f.label :city %><br />
+	    <span class="red"></span> <%= f.label :city %><br />
 	    <%= f.text_field :city %>
 	  </div>
 	  <div class="field">
-	    <label for="state"><span class="red">*</span> State / Region<br />
+	    <label for="state"><span class="red"></span> State / Region<br />
 	    <%= f.text_field :state %>
 	  </div>
 	  <div class="field">
-	    <span class="red">*</span> <%= f.label :country %><br />
+	    <span class="red"></span> <%= f.label :country %><br />
 		<%= country_select(:post, :country, ["United States", "United Kingdom", "Canada"], {}, :class => "select_country") %>
 	  </div>
 	  <div class="field">

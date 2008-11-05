@@ -8,7 +8,7 @@ class Post < ActiveRecord::Base
                     :path => ":attachment/:id/:style.:extension",
                     :bucket => 'wedidit_dev'
 
-  validates_presence_of :name, :city, :state, :country
+  validates_presence_of :name
   validates_attachment_presence :image
   validates_attachment_size :image, :less_than => 5.megabytes
   validates_attachment_content_type :image, :content_type => ['image/jpeg', 'image/png', 'image/gif']

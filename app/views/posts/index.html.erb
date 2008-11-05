@@ -6,7 +6,7 @@
 			We think that's a victory worth celebrating.
 		</p>
 		<p>&nbsp;</p>
-		<h2><a href="/submit/">Show us your sign!</a></h2>
+		<h2><%= link_to 'Show us your sign!', new_post_path %></h2>
 		<p>&nbsp;</p>
 	<% end %>
 	
@@ -21,7 +21,7 @@
 
 		<div class="post-meta">
 			<h2 class="name"><%= link_to post.name, :controller => 'posts', :action => 'show', :id => post %></h2>
-		    <p><%=h post.name %> in <%=h post.city %>, <%=h post.state %> (<%=h post.country %>)</p>			
+		    <p><%=h post.name %> in <%=h post.city + ', ' unless post.city.blank? %><%=h post.state + ", " unless post.state.blank? %> <%=h "" + post.country + "" unless post.country.blank? %></p>
 		</div>
 
 		<% unless post.image.url == "/images/original/missing.png" %>
@@ -30,9 +30,11 @@
 			</p>
 		<% end %>
 
-	    <p><%=h post.content %></p>
+	    <p><%=h truncate(post.content, 255, '...') %></p>
+		<p><%= link_to "Permalink", :controller => 'posts', :action => 'show', :id => post.id %> </p>
+
 		<% if params[:admin] && params[:admin] == "heckyes" %>
-	    	<p class="actions"><%= link_to 'Show', post %> | <%= link_to 'Edit', edit_post_path(post) %> | <%= link_to 'Delete', post, :confirm => 'Are you sure?', :method => :remove_post %></p>
+	    	<p class="actions"><%= link_to 'Show', post %> | <%= link_to 'Edit', edit_post_path(post) %> | <%= link_to 'Delete', '/post/remove_post/' + post.id.to_s, :confirm => 'Are you sure?', :method => :post %></p>
 		<% end %>
 	</div>
 	<% end %>

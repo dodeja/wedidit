@@ -9,7 +9,7 @@
 
 		<div class="post-meta">
 			<h2 class="name"><%= link_to @post.name, :controller => 'posts', :action => 'show', :id => @post %></h2>
-		    <p><%=h @post.name %> in <%=h @post.city %>, <%=h @post.state %> (<%=h @post.country %>)</p>			
+		    <p><%=h @post.name %> in <%=h @post.city + ', ' unless @post.city.blank? %><%=h @post.state + ", " unless @post.state.blank? %> <%=h "" + @post.country + "" unless @post.country.blank? %></p>
 		</div>
 
 		<% unless @post.image.url == "/images/original/missing.png" %>
