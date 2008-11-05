@@ -1,1 +1,27 @@
 contact
+
+<% form_tag :action => "send_mail" do %>
+  <p>
+    <%= label_tag "email[name]", "Name" %><br />
+    <%= text_field :email, :name, :class => "text_field" %>
+  </p>
+
+  <p>
+    <%= label_tag "email[address]", "Your Email Address" %><br />
+    <%= text_field :email, :address, :class => "text_field" %>
+  </p>
+
+  <p>
+    <%= label_tag "email[subject]", "Subject" %><br />
+    <%= text_field :email, :subject, :class => "text_field" %>
+  </p>
+
+  <p>
+    <%= label_tag "email[body]", "Your Message" %><br />
+    <%= text_area :email, :body, :rows => 8, :cols => 50 %>
+  </p>
+
+  <p>
+    <%= submit_tag "Submit" %>
+  </p>
+<% end %>

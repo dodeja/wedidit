@@ -4,6 +4,13 @@ class PagesController < ApplicationController
 
   def contact
   end
+  
+  def send_mail
+      UserMailer.deliver_contactnow(params[:email])
+      flash[:notice] = "Thanks for contacting us!"
+      # render the default action
+      render root_path  
+  end
 
   def feedback
   end

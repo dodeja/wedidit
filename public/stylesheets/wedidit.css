@@ -384,8 +384,8 @@ fieldset { border: none; }
 	top: 40px;
 	right: -170px;
 	padding: 10px 10px;
-	background: url(/images/sidebar-bg.png);
-}
+/*	background: url(/images/sidebar-bg.png);
+*/}
 
 #sidebar a { 
 	white-space: normal;
