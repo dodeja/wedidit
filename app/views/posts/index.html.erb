@@ -1,0 +1,28 @@
+<div class="posts">
+	<% for post in @posts %>
+	<div class="post">
+	    <div class="date">
+			<div class="date-inner">
+				<%=h post.created_at.strftime("%b") %>
+				<span class="datenum"><%=h post.created_at.strftime("%d") %></span>
+			</div>
+		</div>
+
+		<div class="post-meta">
+			<h2 class="name"><%=h post.name %></h2>
+		    <p><%=h post.name %> in <%=h post.city %>, <%=h post.state %> (<%=h post.country %>)</p>			
+		</div>
+
+		<% unless post.image.url == "/images/original/missing.png" %>
+			<p style="text-align: center;">
+				<span class="shadowed-image"><%= image_tag post.image.url(:regular)  %></span>
+			</p>
+		<% end %>
+
+	    <p><%=h post.content %></p>
+
+	    <p class="actions"><%= link_to 'Show', post %> | <%= link_to 'Edit', edit_post_path(post) %> | <%= link_to 'Destroy', post, :confirm => 'Are you sure?', :method => :delete %></p>
+	</div>
+	<% end %>
+
+</div>

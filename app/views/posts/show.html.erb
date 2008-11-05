@@ -1,0 +1,59 @@
+<p>
+  <b>Created at:</b>
+  <%=h @post.created_at %>
+</p>
+
+<p>
+  <b>Updated at:</b>
+  <%=h @post.updated_at %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%=h @post.name %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%=h @post.email %>
+</p>
+
+<p>
+  <b>Content:</b>
+  <%=h @post.content %>
+</p>
+
+<p>
+  <b>Published:</b>
+  <%=h @post.published %>
+</p>
+
+<p>
+  <b>City:</b>
+  <%=h @post.city %>
+</p>
+
+<p>
+  <b>State:</b>
+  <%=h @post.state %>
+</p>
+
+<p>
+  <b>Country:</b>
+  <%=h @post.country %>
+</p>
+
+<p>
+  <b>Geo:</b>
+  Lat: <%=h @post.lat %><br />
+  Long: <%=h @post.lng %>
+</p>
+
+<p>
+	<strong>Image</strong>
+	<%= image_tag @post.image.url(:regular) %>
+</p>
+
+
+<%= link_to 'Edit', edit_post_path(@post) %> |
+<%= link_to 'Back', posts_path %>
