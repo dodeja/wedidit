@@ -3,7 +3,7 @@ class PostsController < ApplicationController
   # GET /posts
   # GET /posts.xml
   def index
-    @posts = Post.find(:all, :order => 'created_at desc')
+    @posts = Post.paginate :page => params[:page], :order => 'created_at DESC', :per_page => 10
 
     respond_to do |format|
       format.html # index.html.erb
@@ -12,7 +12,7 @@ class PostsController < ApplicationController
   end
 
   def gallery
-    @posts = Post.find(:all, :order => 'created_at desc')
+    @posts = Post.paginate :page => params[:page], :order => 'created_at DESC', :per_page => 36
 
     respond_to do |format|
       format.html # gallery.html.erb
