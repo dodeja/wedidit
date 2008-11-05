@@ -22,4 +22,4 @@ production:
     database: wedidit_prod
     username: sunago
     password: lum1n0usn0mad
-    host: 127.0.0.1
+    host: localhost
