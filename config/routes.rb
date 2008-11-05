@@ -3,8 +3,8 @@ ActionController::Routing::Routes.draw do |map|
   map.resources :post_images
 
 
-  map.connect ':controller/:action/:id'
-  map.connect ':controller/:action/:id.:format'
+  # map.connect ':controller/:action/:id'
+  # map.connect ':controller/:action/:id.:format'
   map.connect '/', :controller => 'posts', :action => 'index'
   map.connect '/gallery', :controller => 'posts', :action => 'gallery'
 

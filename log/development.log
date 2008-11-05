@@ -25614,3 +25614,1036 @@ Rendering pages/contact
 Rendered layouts/_header (0.00018)
 Rendered layouts/_footer (0.00002)
 Completed in 0.00329 (303 reqs/sec) | Rendering: 0.00149 (45%) | DB: 0.00000 (0%) | 200 OK [http://localhost/contact/]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2008-11-05 02:44:07) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--0f99f12a69383df1a19ece9014fc63052e865efc
+  Parameters: {"action"=>"contact", "controller"=>"pages"}
+  [4;36;1mSQL (0.000202)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_header (0.00035)
+Rendered layouts/_footer (0.00002)
+Completed in 0.00727 (137 reqs/sec) | Rendering: 0.00538 (74%) | DB: 0.00020 (2%) | 200 OK [http://localhost/contact/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 02:44:09) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--0f99f12a69383df1a19ece9014fc63052e865efc
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000466)[0m   [0mSELECT * FROM `posts` ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering posts/index
+Rendered layouts/_header (0.00018)
+Rendered layouts/_footer (0.00002)
+Completed in 0.00837 (119 reqs/sec) | Rendering: 0.00257 (30%) | DB: 0.00047 (5%) | 200 OK [http://localhost/]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2008-11-05 02:44:12) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--0f99f12a69383df1a19ece9014fc63052e865efc
+  Parameters: {"action"=>"new", "controller"=>"posts"}
+  [4;36;1mPost Columns (0.002824)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/application
+Rendering posts/new
+Rendered layouts/_header (0.00017)
+Rendered layouts/_footer (0.00002)
+Completed in 0.01792 (55 reqs/sec) | Rendering: 0.00961 (53%) | DB: 0.00282 (15%) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#create (for 127.0.0.1 at 2008-11-05 02:48:00) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"ba0e673744afc5dd9df0edbad442454248359afd", "post"=>{"name"=>"Akshay", "city"=>"Portland", "country"=>"United States", "content"=>"Yes! We did it! ", "image"=>#<File:/var/folders/6u/6u+MCuL9G5K4CSBMsMe5z++++TI/-Tmp-/CGI.26625.3>, "email"=>"akshay@mugasha.com", "state"=>"OR"}, "action"=>"create", "controller"=>"posts"}
+  [4;35;1mPost Columns (0.006031)[0m   [0mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] Assigning #<File:/var/folders/6u/6u+MCuL9G5K4CSBMsMe5z++++TI/-Tmp-/CGI.26625.3> to image
+[paperclip] Writing attributes for image
+[paperclip] Post-processing image
+  [4;36;1mSQL (0.000147)[0m   [0;1mBEGIN[0m
+Google geocoding. Address: Portland OR United States. Result: <?xml version="1.0" encoding="UTF-8"?><kml xmlns="http://earth.google.com/kml/2.0"><Response><name>Portland OR United States</name><Status><code>200</code><request>geocode</request></Status><Placemark id="p1"><address>Portland, OR, USA</address><AddressDetails Accuracy="4" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>US</CountryNameCode><CountryName>USA</CountryName><AdministrativeArea><AdministrativeAreaName>OR</AdministrativeAreaName><Locality><LocalityName>Portland</LocalityName></Locality></AdministrativeArea></Country></AddressDetails><Point><coordinates>-122.670399,45.523875,0</coordinates></Point></Placemark></Response></kml>
+  [4;35;1mPost Create (0.000337)[0m   [0mINSERT INTO `posts` (`name`, `city`, `image_file_size`, `updated_at`, `published`, `country`, `image_content_type`, `lng`, `content`, `image_updated_at`, `lat`, `created_at`, `email`, `state`, `image_file_name`) VALUES('Akshay', 'Portland', 29686, '2008-11-05 10:48:02', NULL, 'United States', 'image/jpeg', '-122.670399', 'Yes! We did it! ', '2008-11-05 02:48:00', '45.523875', '2008-11-05 10:48:02', 'akshay@mugasha.com', 'OR', 'Cam-3.jpg')[0m
+[paperclip] Saving attachments.
+[paperclip] Saving files for image
+[paperclip] Writing files for image
+[paperclip] Writing files for image
+[paperclip] -> images/1/original.jpg
+New RightAws::S3Interface using single-threaded mode
+Opening new HTTPS connection to s3.amazonaws.com:443
+[paperclip] -> images/1/small.jpg
+[paperclip] -> images/1/regular.jpg
+  [4;36;1mSQL (0.000445)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/posts/1
+Completed in 4.43987 (0 reqs/sec) | DB: 0.00696 (0%) | 302 Found [http://localhost/posts]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2008-11-05 02:48:04) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiNQb3N0IHdhcyBzdWNjZXNzZnVsbHkgY3JlYXRlZC4G
+OgpAdXNlZHsGOwdG--b21291b2d95812a94da612df00de748ca488ae56
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"posts"}
+  [4;35;1mPost Columns (0.001708)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mPost Load (0.000309)[0m   [0;1mSELECT * FROM `posts` WHERE (`posts`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering posts/show
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00019)
+Rendered layouts/_footer (0.00002)
+Completed in 0.16690 (5 reqs/sec) | Rendering: 0.15853 (94%) | DB: 0.00202 (1%) | 200 OK [http://localhost/posts/1]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2008-11-05 02:48:09) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiNQb3N0IHdhcyBzdWNjZXNzZnVsbHkgY3JlYXRlZC4G
+OgpAdXNlZHsGOwdU--86c5695496c4f309397889044e3af7f0e84b4af1
+  Parameters: {"action"=>"new", "controller"=>"posts"}
+  [4;35;1mPost Columns (0.001655)[0m   [0mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/application
+Rendering posts/new
+Rendered layouts/_header (0.00020)
+Rendered layouts/_footer (0.00002)
+Completed in 0.01419 (70 reqs/sec) | Rendering: 0.00684 (48%) | DB: 0.00165 (11%) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#create (for 127.0.0.1 at 2008-11-05 02:49:01) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"ba0e673744afc5dd9df0edbad442454248359afd", "post"=>{"name"=>"Justin", "city"=>"Portland", "country"=>"United States", "content"=>"WWOOOT!", "image"=>#<File:/var/folders/6u/6u+MCuL9G5K4CSBMsMe5z++++TI/-Tmp-/CGI.26625.4>, "email"=>"justin.thiele@gmail.com", "state"=>"OR"}, "action"=>"create", "controller"=>"posts"}
+  [4;36;1mPost Columns (0.001704)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] Assigning #<File:/var/folders/6u/6u+MCuL9G5K4CSBMsMe5z++++TI/-Tmp-/CGI.26625.4> to image
+[paperclip] Writing attributes for image
+[paperclip] Post-processing image
+  [4;35;1mSQL (0.000180)[0m   [0mBEGIN[0m
+Google geocoding. Address: Portland OR United States. Result: <?xml version="1.0" encoding="UTF-8"?><kml xmlns="http://earth.google.com/kml/2.0"><Response><name>Portland OR United States</name><Status><code>200</code><request>geocode</request></Status><Placemark id="p1"><address>Portland, OR, USA</address><AddressDetails Accuracy="4" xmlns="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"><Country><CountryNameCode>US</CountryNameCode><CountryName>USA</CountryName><AdministrativeArea><AdministrativeAreaName>OR</AdministrativeAreaName><Locality><LocalityName>Portland</LocalityName></Locality></AdministrativeArea></Country></AddressDetails><Point><coordinates>-122.670399,45.523875,0</coordinates></Point></Placemark></Response></kml>
+  [4;36;1mPost Create (0.000286)[0m   [0;1mINSERT INTO `posts` (`name`, `city`, `image_file_size`, `updated_at`, `published`, `country`, `image_content_type`, `lng`, `content`, `image_updated_at`, `lat`, `created_at`, `email`, `state`, `image_file_name`) VALUES('Justin', 'Portland', 37948, '2008-11-05 10:49:02', NULL, 'United States', 'image/jpeg', '-122.670399', 'WWOOOT!', '2008-11-05 02:49:01', '45.523875', '2008-11-05 10:49:02', 'justin.thiele@gmail.com', 'OR', 'justin.jpg')[0m
+[paperclip] Saving attachments.
+[paperclip] Saving files for image
+[paperclip] Writing files for image
+[paperclip] Writing files for image
+[paperclip] -> images/2/original.jpg
+New RightAws::S3Interface using single-threaded mode
+[paperclip] -> images/2/small.jpg
+[paperclip] -> images/2/regular.jpg
+  [4;35;1mSQL (0.013596)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/posts/2
+Completed in 1.60085 (0 reqs/sec) | DB: 0.01577 (0%) | 302 Found [http://localhost/posts]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2008-11-05 02:49:03) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiNQb3N0IHdhcyBzdWNjZXNzZnVsbHkgY3JlYXRlZC4G
+OgpAdXNlZHsGOwdG--b21291b2d95812a94da612df00de748ca488ae56
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"posts"}
+  [4;36;1mPost Columns (0.001657)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.000322)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 2) [0m
+Rendering template within layouts/application
+Rendering posts/show
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00018)
+Rendered layouts/_footer (0.00002)
+Completed in 0.01504 (66 reqs/sec) | Rendering: 0.00695 (46%) | DB: 0.00198 (13%) | 200 OK [http://localhost/posts/2]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2008-11-05 02:49:06) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiNQb3N0IHdhcyBzdWNjZXNzZnVsbHkgY3JlYXRlZC4G
+OgpAdXNlZHsGOwdU--86c5695496c4f309397889044e3af7f0e84b4af1
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"posts"}
+  [4;36;1mPost Columns (0.001628)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+  [4;35;1mPost Load (0.000283)[0m   [0mSELECT * FROM `posts` WHERE (`posts`.`id` = 2) [0m
+Rendering template within layouts/application
+Rendering posts/show
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00019)
+Rendered layouts/_footer (0.00002)
+Completed in 0.01435 (69 reqs/sec) | Rendering: 0.00653 (45%) | DB: 0.00191 (13%) | 200 OK [http://localhost/posts/2]
+
+
+Processing PostsController#new (for 127.0.0.1 at 2008-11-05 02:49:08) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"new", "controller"=>"posts"}
+  [4;36;1mPost Columns (0.001623)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+Rendering template within layouts/application
+Rendering posts/new
+Rendered layouts/_header (0.00016)
+Rendered layouts/_footer (0.00002)
+Completed in 0.01432 (69 reqs/sec) | Rendering: 0.00679 (47%) | DB: 0.00162 (11%) | 200 OK [http://localhost/posts/new]
+
+
+Processing PostsController#create (for 127.0.0.1 at 2008-11-05 02:49:40) [POST]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"ba0e673744afc5dd9df0edbad442454248359afd", "post"=>{"name"=>"Alissa", "city"=>"", "country"=>"United States", "content"=>"We Rock!", "image"=>#<File:/var/folders/6u/6u+MCuL9G5K4CSBMsMe5z++++TI/-Tmp-/CGI.26625.7>, "email"=>"alissa.thiele@gmail.com", "state"=>""}, "action"=>"create", "controller"=>"posts"}
+  [4;35;1mPost Columns (0.001633)[0m   [0mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] Assigning #<File:/var/folders/6u/6u+MCuL9G5K4CSBMsMe5z++++TI/-Tmp-/CGI.26625.7> to image
+[paperclip] Writing attributes for image
+[paperclip] Post-processing image
+  [4;36;1mSQL (0.000146)[0m   [0;1mBEGIN[0m
+  [4;35;1mPost Create (0.000223)[0m   [0mINSERT INTO `posts` (`name`, `city`, `image_file_size`, `updated_at`, `published`, `country`, `image_content_type`, `lng`, `content`, `image_updated_at`, `lat`, `created_at`, `email`, `state`, `image_file_name`) VALUES('Alissa', '', 93043, '2008-11-05 10:49:40', NULL, 'United States', 'image/jpeg', NULL, 'We Rock!', '2008-11-05 02:49:40', NULL, '2008-11-05 10:49:40', 'alissa.thiele@gmail.com', '', 'Photo_44.jpg')[0m
+[paperclip] Saving attachments.
+[paperclip] Saving files for image
+[paperclip] Writing files for image
+[paperclip] Writing files for image
+[paperclip] -> images/3/original.jpg
+New RightAws::S3Interface using single-threaded mode
+[paperclip] -> images/3/small.jpg
+[paperclip] -> images/3/regular.jpg
+  [4;36;1mSQL (0.000421)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/posts/3
+Completed in 1.81652 (0 reqs/sec) | DB: 0.00242 (0%) | 302 Found [http://localhost/posts]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2008-11-05 02:49:42) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiNQb3N0IHdhcyBzdWNjZXNzZnVsbHkgY3JlYXRlZC4G
+OgpAdXNlZHsGOwdG--b21291b2d95812a94da612df00de748ca488ae56
+  Parameters: {"action"=>"show", "id"=>"3", "controller"=>"posts"}
+  [4;35;1mPost Columns (0.001574)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mPost Load (0.000247)[0m   [0;1mSELECT * FROM `posts` WHERE (`posts`.`id` = 3) [0m
+Rendering template within layouts/application
+Rendering posts/show
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00017)
+Rendered layouts/_footer (0.00002)
+Completed in 0.01426 (70 reqs/sec) | Rendering: 0.00650 (45%) | DB: 0.00182 (12%) | 200 OK [http://localhost/posts/3]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 02:49:49) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7BjoLbm90aWNlIiNQb3N0IHdhcyBzdWNjZXNzZnVsbHkgY3JlYXRlZC4G
+OgpAdXNlZHsGOwdU--86c5695496c4f309397889044e3af7f0e84b4af1
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000368)[0m   [0mSELECT * FROM `posts` ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mPost Columns (0.001658)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00016)
+Rendered layouts/_footer (0.00002)
+Completed in 0.02038 (49 reqs/sec) | Rendering: 0.01336 (65%) | DB: 0.00203 (9%) | 200 OK [http://localhost/]
+
+
+Processing PostsController#gallery (for 127.0.0.1 at 2008-11-05 02:49:53) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"gallery", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000383)[0m   [0mSELECT * FROM `posts` ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering posts/gallery
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+  [4;36;1mPost Columns (0.001724)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00016)
+Rendered layouts/_footer (0.00002)
+Completed in 0.03542 (28 reqs/sec) | Rendering: 0.02829 (79%) | DB: 0.00211 (5%) | 200 OK [http://localhost/gallery/]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2008-11-05 02:49:56) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"show", "id"=>"3", "controller"=>"posts"}
+  [4;35;1mPost Columns (0.001632)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mPost Load (0.000250)[0m   [0;1mSELECT * FROM `posts` WHERE (`posts`.`id` = 3) [0m
+Rendering template within layouts/application
+Rendering posts/show
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00018)
+Rendered layouts/_footer (0.00002)
+Completed in 0.01386 (72 reqs/sec) | Rendering: 0.00632 (45%) | DB: 0.00188 (13%) | 200 OK [http://localhost/posts/3]
+
+
+Processing PostsController#gallery (for 127.0.0.1 at 2008-11-05 02:49:57) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"gallery", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000400)[0m   [0mSELECT * FROM `posts` ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering posts/gallery
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+  [4;36;1mPost Columns (0.001598)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00016)
+Rendered layouts/_footer (0.00002)
+Completed in 0.08493 (11 reqs/sec) | Rendering: 0.07764 (91%) | DB: 0.00200 (2%) | 200 OK [http://localhost/gallery/]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2008-11-05 02:49:58) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"posts"}
+  [4;35;1mPost Columns (0.001625)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mPost Load (0.008839)[0m   [0;1mSELECT * FROM `posts` WHERE (`posts`.`id` = 2) [0m
+Rendering template within layouts/application
+Rendering posts/show
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00016)
+Rendered layouts/_footer (0.00002)
+Completed in 0.02266 (44 reqs/sec) | Rendering: 0.00627 (27%) | DB: 0.01046 (46%) | 200 OK [http://localhost/posts/2]
+
+
+Processing PostsController#gallery (for 127.0.0.1 at 2008-11-05 02:49:59) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"gallery", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000422)[0m   [0mSELECT * FROM `posts` ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering posts/gallery
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+  [4;36;1mPost Columns (0.001599)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00016)
+Rendered layouts/_footer (0.00002)
+Completed in 0.01809 (55 reqs/sec) | Rendering: 0.01083 (59%) | DB: 0.00202 (11%) | 200 OK [http://localhost/gallery/]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2008-11-05 02:50:00) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"posts"}
+  [4;35;1mPost Columns (0.001767)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mPost Load (0.000230)[0m   [0;1mSELECT * FROM `posts` WHERE (`posts`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering posts/show
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00016)
+Rendered layouts/_footer (0.00002)
+Completed in 0.01385 (72 reqs/sec) | Rendering: 0.00630 (45%) | DB: 0.00200 (14%) | 200 OK [http://localhost/posts/1]
+
+
+Processing PostsController#gallery (for 127.0.0.1 at 2008-11-05 02:50:01) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"gallery", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000378)[0m   [0mSELECT * FROM `posts` ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering posts/gallery
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+  [4;36;1mPost Columns (0.001527)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00016)
+Rendered layouts/_footer (0.00002)
+Completed in 0.01740 (57 reqs/sec) | Rendering: 0.01044 (60%) | DB: 0.00190 (10%) | 200 OK [http://localhost/gallery/]
+
+
+Processing PostsController#gallery (for 127.0.0.1 at 2008-11-05 02:52:26) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"gallery", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000386)[0m   [0mSELECT * FROM `posts` ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering posts/gallery
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+  [4;36;1mPost Columns (0.001545)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00021)
+Rendered layouts/_footer (0.00002)
+Completed in 0.01839 (54 reqs/sec) | Rendering: 0.01129 (61%) | DB: 0.00193 (10%) | 200 OK [http://localhost/gallery/]
+
+
+Processing PostsController#gallery (for 127.0.0.1 at 2008-11-05 02:52:26) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"gallery", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000366)[0m   [0mSELECT * FROM `posts` ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering posts/gallery
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+  [4;36;1mPost Columns (0.001745)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00016)
+Rendered layouts/_footer (0.00002)
+Completed in 0.08586 (11 reqs/sec) | Rendering: 0.07853 (91%) | DB: 0.00211 (2%) | 200 OK [http://localhost/gallery/]
+
+
+Processing PostsController#gallery (for 127.0.0.1 at 2008-11-05 02:54:23) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"gallery", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000383)[0m   [0mSELECT * FROM `posts` ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering posts/gallery
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+  [4;36;1mPost Columns (0.001604)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00016)
+Rendered layouts/_footer (0.00005)
+Completed in 0.01875 (53 reqs/sec) | Rendering: 0.01151 (61%) | DB: 0.00199 (10%) | 200 OK [http://localhost/gallery/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 02:54:24) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000405)[0m   [0mSELECT * FROM `posts` ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mPost Columns (0.001481)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00017)
+Rendered layouts/_footer (0.00002)
+Completed in 0.02074 (48 reqs/sec) | Rendering: 0.01378 (66%) | DB: 0.00189 (9%) | 200 OK [http://localhost/]
+
+
+Processing PostsController#show (for 127.0.0.1 at 2008-11-05 02:54:25) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"show", "id"=>"3", "controller"=>"posts"}
+  [4;35;1mPost Columns (0.001572)[0m   [0mSHOW FIELDS FROM `posts`[0m
+  [4;36;1mPost Load (0.000256)[0m   [0;1mSELECT * FROM `posts` WHERE (`posts`.`id` = 3) [0m
+Rendering template within layouts/application
+Rendering posts/show
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00016)
+Rendered layouts/_footer (0.00002)
+Completed in 0.01372 (72 reqs/sec) | Rendering: 0.00615 (44%) | DB: 0.00183 (13%) | 200 OK [http://localhost/posts/3]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 02:54:48) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000407)[0m   [0mSELECT * FROM `posts` ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mPost Columns (0.001540)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00016)
+Rendered layouts/_footer (0.00002)
+Completed in 0.02102 (47 reqs/sec) | Rendering: 0.01379 (65%) | DB: 0.00195 (9%) | 200 OK [http://localhost/]
+
+
+Processing PagesController#faq (for 127.0.0.1 at 2008-11-05 02:55:53) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"faq", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/faq
+Rendered layouts/_header (0.00020)
+Rendered layouts/_footer (0.00002)
+Completed in 0.00348 (287 reqs/sec) | Rendering: 0.00174 (49%) | DB: 0.00000 (0%) | 200 OK [http://localhost/faq/]
+
+
+Processing PagesController#faq (for 127.0.0.1 at 2008-11-05 02:57:05) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"faq", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/faq
+Rendered layouts/_header (0.00018)
+Rendered layouts/_footer (0.00002)
+Completed in 0.00309 (323 reqs/sec) | Rendering: 0.00122 (39%) | DB: 0.00000 (0%) | 200 OK [http://localhost/faq/]
+
+
+Processing PagesController#faq (for 127.0.0.1 at 2008-11-05 02:57:17) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"faq", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/faq
+Rendered layouts/_header (0.00020)
+Rendered layouts/_footer (0.00002)
+Completed in 0.00305 (327 reqs/sec) | Rendering: 0.00125 (40%) | DB: 0.00000 (0%) | 200 OK [http://localhost/faq/]
+
+
+Processing PagesController#faq (for 127.0.0.1 at 2008-11-05 02:57:25) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"faq", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/faq
+Rendered layouts/_header (0.00018)
+Rendered layouts/_footer (0.00002)
+Completed in 0.00310 (322 reqs/sec) | Rendering: 0.00123 (39%) | DB: 0.00000 (0%) | 200 OK [http://localhost/faq/]
+
+
+Processing PagesController#faq (for 127.0.0.1 at 2008-11-05 02:57:30) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"faq", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/faq
+Rendered layouts/_header (0.00018)
+Rendered layouts/_footer (0.00002)
+Completed in 0.00302 (331 reqs/sec) | Rendering: 0.00126 (41%) | DB: 0.00000 (0%) | 200 OK [http://localhost/faq/]
+
+
+Processing PagesController#faq (for 127.0.0.1 at 2008-11-05 02:57:36) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"faq", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/faq
+Rendered layouts/_header (0.00018)
+Rendered layouts/_footer (0.00002)
+Completed in 0.00300 (333 reqs/sec) | Rendering: 0.00125 (41%) | DB: 0.00000 (0%) | 200 OK [http://localhost/faq/]
+
+
+Processing PagesController#faq (for 127.0.0.1 at 2008-11-05 02:57:50) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"faq", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/faq
+Rendered layouts/_header (0.00020)
+Rendered layouts/_footer (0.00002)
+Completed in 0.00304 (328 reqs/sec) | Rendering: 0.00125 (41%) | DB: 0.00000 (0%) | 200 OK [http://localhost/faq/]
+
+
+Processing PagesController#faq (for 127.0.0.1 at 2008-11-05 02:57:56) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"faq", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/faq
+Rendered layouts/_header (0.00018)
+Rendered layouts/_footer (0.00002)
+Completed in 0.00306 (327 reqs/sec) | Rendering: 0.00128 (41%) | DB: 0.00000 (0%) | 200 OK [http://localhost/faq/]
+
+
+Processing PagesController#faq (for 127.0.0.1 at 2008-11-05 02:58:10) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"faq", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/faq
+Rendered layouts/_header (0.00021)
+Rendered layouts/_footer (0.00002)
+Completed in 0.00369 (270 reqs/sec) | Rendering: 0.00150 (40%) | DB: 0.00000 (0%) | 200 OK [http://localhost/faq/]
+
+
+Processing PagesController#faq (for 127.0.0.1 at 2008-11-05 02:58:15) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"faq", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/faq
+Rendered layouts/_header (0.00018)
+Rendered layouts/_footer (0.00002)
+Completed in 0.00306 (327 reqs/sec) | Rendering: 0.00124 (40%) | DB: 0.00000 (0%) | 200 OK [http://localhost/faq/]
+
+
+Processing PagesController#faq (for 127.0.0.1 at 2008-11-05 02:58:45) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"faq", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/faq
+Rendered layouts/_header (0.00018)
+Rendered layouts/_footer (0.00002)
+Completed in 0.00400 (249 reqs/sec) | Rendering: 0.00218 (54%) | DB: 0.00000 (0%) | 200 OK [http://localhost/faq/]
+
+
+Processing PagesController#faq (for 127.0.0.1 at 2008-11-05 02:58:49) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"faq", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/faq
+Rendered layouts/_header (0.00021)
+Rendered layouts/_footer (0.00002)
+Completed in 0.00410 (243 reqs/sec) | Rendering: 0.00225 (54%) | DB: 0.00000 (0%) | 200 OK [http://localhost/faq/]
+
+
+Processing PagesController#faq (for 127.0.0.1 at 2008-11-05 02:58:54) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"faq", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/faq
+Rendered layouts/_header (0.00017)
+Rendered layouts/_footer (0.00002)
+Completed in 0.00387 (258 reqs/sec) | Rendering: 0.00208 (53%) | DB: 0.00000 (0%) | 200 OK [http://localhost/faq/]
+
+
+Processing PagesController#faq (for 127.0.0.1 at 2008-11-05 02:59:27) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"faq", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/faq
+Rendered layouts/_header (0.00020)
+Rendered layouts/_footer (0.00002)
+Completed in 0.00308 (324 reqs/sec) | Rendering: 0.00131 (42%) | DB: 0.00000 (0%) | 200 OK [http://localhost/faq/]
+
+
+Processing PagesController#faq (for 127.0.0.1 at 2008-11-05 02:59:29) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"faq", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/faq
+Rendered layouts/_header (0.00019)
+Rendered layouts/_footer (0.00002)
+Completed in 0.00300 (333 reqs/sec) | Rendering: 0.00123 (41%) | DB: 0.00000 (0%) | 200 OK [http://localhost/faq/]
+
+
+Processing PagesController#faq (for 127.0.0.1 at 2008-11-05 02:59:36) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"faq", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/faq
+Rendered layouts/_header (0.00018)
+Rendered layouts/_footer (0.00002)
+Completed in 0.00348 (286 reqs/sec) | Rendering: 0.00144 (41%) | DB: 0.00000 (0%) | 200 OK [http://localhost/faq/]
+
+
+Processing PagesController#faq (for 127.0.0.1 at 2008-11-05 02:59:42) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"faq", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/faq
+Rendered layouts/_header (0.00020)
+Rendered layouts/_footer (0.00002)
+Completed in 0.00312 (320 reqs/sec) | Rendering: 0.00135 (43%) | DB: 0.00000 (0%) | 200 OK [http://localhost/faq/]
+
+
+Processing PagesController#faq (for 127.0.0.1 at 2008-11-05 02:59:46) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"faq", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/faq
+Rendered layouts/_header (0.00018)
+Rendered layouts/_footer (0.00004)
+Completed in 0.00339 (294 reqs/sec) | Rendering: 0.00158 (46%) | DB: 0.00000 (0%) | 200 OK [http://localhost/faq/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:00:05) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000496)[0m   [0mSELECT * FROM `posts` ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mPost Columns (0.001685)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00016)
+Rendered layouts/_footer (0.00002)
+Completed in 0.02147 (46 reqs/sec) | Rendering: 0.01388 (64%) | DB: 0.00218 (10%) | 200 OK [http://localhost/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:00:14) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000412)[0m   [0mSELECT * FROM `posts` ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mPost Columns (0.001552)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00016)
+Rendered layouts/_footer (0.00002)
+Completed in 0.02057 (48 reqs/sec) | Rendering: 0.01331 (64%) | DB: 0.00196 (9%) | 200 OK [http://localhost/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:00:31) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000383)[0m   [0mSELECT * FROM `posts` ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mPost Columns (0.001511)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00018)
+Rendered layouts/_footer (0.00002)
+Completed in 0.02111 (47 reqs/sec) | Rendering: 0.01413 (66%) | DB: 0.00189 (8%) | 200 OK [http://localhost/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:01:30) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000383)[0m   [0mSELECT * FROM `posts` ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mPost Columns (0.001558)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00016)
+Rendered layouts/_footer (0.00002)
+Completed in 0.02052 (48 reqs/sec) | Rendering: 0.01348 (65%) | DB: 0.00194 (9%) | 200 OK [http://localhost/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:02:43) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000384)[0m   [0mSELECT * FROM `posts` ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mPost Columns (0.001547)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00016)
+Rendered layouts/_footer (0.00002)
+Completed in 0.08326 (12 reqs/sec) | Rendering: 0.07628 (91%) | DB: 0.00193 (2%) | 200 OK [http://localhost/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:03:19) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000393)[0m   [0mSELECT * FROM `posts` ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mPost Columns (0.001544)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00018)
+Rendered layouts/_footer (0.00002)
+Completed in 0.02154 (46 reqs/sec) | Rendering: 0.01414 (65%) | DB: 0.00194 (8%) | 200 OK [http://localhost/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:03:37) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000552)[0m   [0mSELECT * FROM `posts` ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mPost Columns (0.001555)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00017)
+Rendered layouts/_footer (0.00002)
+Completed in 0.02067 (48 reqs/sec) | Rendering: 0.01314 (63%) | DB: 0.00211 (10%) | 200 OK [http://localhost/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:03:46) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000384)[0m   [0mSELECT * FROM `posts` ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mPost Columns (0.001545)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00016)
+Rendered layouts/_footer (0.00002)
+Completed in 0.02066 (48 reqs/sec) | Rendering: 0.01370 (66%) | DB: 0.00193 (9%) | 200 OK [http://localhost/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:03:50) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000385)[0m   [0mSELECT * FROM `posts` ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mPost Columns (0.001625)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00016)
+Rendered layouts/_footer (0.00002)
+Completed in 0.02036 (49 reqs/sec) | Rendering: 0.01311 (64%) | DB: 0.00201 (9%) | 200 OK [http://localhost/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:04:44) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000550)[0m   [0mSELECT * FROM `posts` ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mPost Columns (0.001548)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00017)
+Rendered layouts/_footer (0.00002)
+Completed in 0.08325 (12 reqs/sec) | Rendering: 0.01416 (17%) | DB: 0.00210 (2%) | 200 OK [http://localhost/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:04:49) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000383)[0m   [0mSELECT * FROM `posts` ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mPost Columns (0.001488)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00018)
+Rendered layouts/_footer (0.00002)
+Completed in 0.02105 (47 reqs/sec) | Rendering: 0.01391 (66%) | DB: 0.00187 (8%) | 200 OK [http://localhost/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:04:55) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000397)[0m   [0mSELECT * FROM `posts` ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mPost Columns (0.001517)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00018)
+Rendered layouts/_footer (0.00002)
+Completed in 0.02013 (49 reqs/sec) | Rendering: 0.01285 (63%) | DB: 0.00191 (9%) | 200 OK [http://localhost/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:04:57) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000385)[0m   [0mSELECT * FROM `posts` ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mPost Columns (0.001523)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00016)
+Rendered layouts/_footer (0.00002)
+Completed in 0.02018 (49 reqs/sec) | Rendering: 0.01318 (65%) | DB: 0.00191 (9%) | 200 OK [http://localhost/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:05:10) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000398)[0m   [0mSELECT * FROM `posts` ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mPost Columns (0.001730)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00020)
+Rendered layouts/_footer (0.00002)
+Completed in 0.02123 (47 reqs/sec) | Rendering: 0.01371 (64%) | DB: 0.00213 (10%) | 200 OK [http://localhost/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:05:14) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000434)[0m   [0mSELECT * FROM `posts` ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mPost Columns (0.001532)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00018)
+Rendered layouts/_footer (0.00002)
+Completed in 0.02161 (46 reqs/sec) | Rendering: 0.01376 (63%) | DB: 0.00197 (9%) | 200 OK [http://localhost/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:05:29) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000406)[0m   [0mSELECT * FROM `posts` ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mPost Columns (0.001560)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00016)
+Rendered layouts/_footer (0.00002)
+Completed in 0.02174 (45 reqs/sec) | Rendering: 0.01422 (65%) | DB: 0.00197 (9%) | 200 OK [http://localhost/]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2008-11-05 03:05:39) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlZjZjNDdlZGMzNjkzMjMwNDAyODY3Yjg5MDM3NGJj
+MjYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--2d7ad815b722dd7e90a88e2692145fceabfd5f27
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mPost Load (0.000447)[0m   [0mSELECT * FROM `posts` ORDER BY created_at desc[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mPost Columns (0.001561)[0m   [0;1mSHOW FIELDS FROM `posts`[0m
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+[paperclip] S3 Storage Initalized.
+[paperclip] Paperclip attachment image on Post initialized.
+Rendered layouts/_header (0.00016)
+Rendered layouts/_footer (0.00002)
+Completed in 0.02149 (46 reqs/sec) | Rendering: 0.01408 (65%) | DB: 0.00201 (9%) | 200 OK [http://localhost/]

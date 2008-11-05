@@ -278,6 +278,9 @@ h1.title a:hover { color: #0190d2 !important; }
 }
 
 #menu ul a { 
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	text-decoration: none;
 	background: none;
 	border: 0;
 	padding: 0.5em 0.5385em 0.4em 0.3846em;
@@ -370,7 +373,7 @@ fieldset { border: none; }
 *****************************************/
 
 #sidebar {
-	width: 220px;
+	width: 150px;
 	height: auto;
 	color: #fff;
 	padding: 0;
@@ -379,7 +382,7 @@ fieldset { border: none; }
 	opacity: 0.9;
 	filter: alpha(opacity = 90);
 	top: 40px;
-	right: -240px;
+	right: -170px;
 	padding: 10px 10px;
 	background: url(/images/sidebar-bg.png);
 }
