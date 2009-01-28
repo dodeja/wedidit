@@ -1,11 +1,12 @@
 development:
-  access_key_id: 11DQCE0Z92WF51ZYBV82
-  secret_access_key: 4WlONqQHzp1PTPedN5yE5ZyqIcSHyZX+zpRIfCRC
+  access_key_id:
+  secret_access_key:
 
 test:
-  access_key_id: 0ATJWSXDJEBBA4XVPTR2
-  secret_access_key: p6YFxLqBCxYw30nOEbn9646q31IZ1aHvWk57O2ab
+  access_key_id:
+  secret_access_key:
 
 production:
-  access_key_id: 11DQCE0Z92WF51ZYBV82
-  secret_access_key: 4WlONqQHzp1PTPedN5yE5ZyqIcSHyZX+zpRIfCRC
+  access_key_id:
+  secret_access_key:
+
